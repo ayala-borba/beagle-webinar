@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8B211FB2406E989006DAAD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B211FA2406E989006DAAD0 /* AppDelegate.swift */; };
+		C8B211FD2406E989006DAAD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B211FC2406E989006DAAD0 /* ViewController.swift */; };
+		C8B212002406E989006DAAD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B211FE2406E989006DAAD0 /* Main.storyboard */; };
+		C8B212022406E98E006DAAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B212012406E98E006DAAD0 /* Assets.xcassets */; };
+		C8B212052406E98E006DAAD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B212032406E98E006DAAD0 /* LaunchScreen.storyboard */; };
+		C8B212102406E98E006DAAD0 /* BeagleWebinarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B2120F2406E98E006DAAD0 /* BeagleWebinarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8B2120C2406E98E006DAAD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8B211EF2406E989006DAAD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B211F62406E989006DAAD0;
+			remoteInfo = BeagleWebinar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8B211F72406E989006DAAD0 /* BeagleWebinar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeagleWebinar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B211FA2406E989006DAAD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8B211FC2406E989006DAAD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8B211FF2406E989006DAAD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8B212012406E98E006DAAD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8B212042406E98E006DAAD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8B212062406E98E006DAAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B2120B2406E98E006DAAD0 /* BeagleWebinarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeagleWebinarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B2120F2406E98E006DAAD0 /* BeagleWebinarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeagleWebinarTests.swift; sourceTree = "<group>"; };
+		C8B212112406E98E006DAAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8B211F42406E989006DAAD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B212082406E98E006DAAD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8B211EE2406E989006DAAD0 = {
+			isa = PBXGroup;
+			children = (
+				C8B211F92406E989006DAAD0 /* BeagleWebinar */,
+				C8B2120E2406E98E006DAAD0 /* BeagleWebinarTests */,
+				C8B211F82406E989006DAAD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8B211F82406E989006DAAD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8B211F72406E989006DAAD0 /* BeagleWebinar.app */,
+				C8B2120B2406E98E006DAAD0 /* BeagleWebinarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8B211F92406E989006DAAD0 /* BeagleWebinar */ = {
+			isa = PBXGroup;
+			children = (
+				C8B211FA2406E989006DAAD0 /* AppDelegate.swift */,
+				C8B211FC2406E989006DAAD0 /* ViewController.swift */,
+				C8B211FE2406E989006DAAD0 /* Main.storyboard */,
+				C8B212012406E98E006DAAD0 /* Assets.xcassets */,
+				C8B212032406E98E006DAAD0 /* LaunchScreen.storyboard */,
+				C8B212062406E98E006DAAD0 /* Info.plist */,
+			);
+			path = BeagleWebinar;
+			sourceTree = "<group>";
+		};
+		C8B2120E2406E98E006DAAD0 /* BeagleWebinarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8B2120F2406E98E006DAAD0 /* BeagleWebinarTests.swift */,
+				C8B212112406E98E006DAAD0 /* Info.plist */,
+			);
+			path = BeagleWebinarTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8B211F62406E989006DAAD0 /* BeagleWebinar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B212142406E98E006DAAD0 /* Build configuration list for PBXNativeTarget "BeagleWebinar" */;
+			buildPhases = (
+				C8B211F32406E989006DAAD0 /* Sources */,
+				C8B211F42406E989006DAAD0 /* Frameworks */,
+				C8B211F52406E989006DAAD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeagleWebinar;
+			productName = BeagleWebinar;
+			productReference = C8B211F72406E989006DAAD0 /* BeagleWebinar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8B2120A2406E98E006DAAD0 /* BeagleWebinarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B212172406E98E006DAAD0 /* Build configuration list for PBXNativeTarget "BeagleWebinarTests" */;
+			buildPhases = (
+				C8B212072406E98E006DAAD0 /* Sources */,
+				C8B212082406E98E006DAAD0 /* Frameworks */,
+				C8B212092406E98E006DAAD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8B2120D2406E98E006DAAD0 /* PBXTargetDependency */,
+			);
+			name = BeagleWebinarTests;
+			productName = BeagleWebinarTests;
+			productReference = C8B2120B2406E98E006DAAD0 /* BeagleWebinarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8B211EF2406E989006DAAD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Frederico Franco";
+				TargetAttributes = {
+					C8B211F62406E989006DAAD0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C8B2120A2406E98E006DAAD0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C8B211F62406E989006DAAD0;
+					};
+				};
+			};
+			buildConfigurationList = C8B211F22406E989006DAAD0 /* Build configuration list for PBXProject "BeagleWebinar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8B211EE2406E989006DAAD0;
+			productRefGroup = C8B211F82406E989006DAAD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8B211F62406E989006DAAD0 /* BeagleWebinar */,
+				C8B2120A2406E98E006DAAD0 /* BeagleWebinarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8B211F52406E989006DAAD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B212052406E98E006DAAD0 /* LaunchScreen.storyboard in Resources */,
+				C8B212022406E98E006DAAD0 /* Assets.xcassets in Resources */,
+				C8B212002406E989006DAAD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B212092406E98E006DAAD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8B211F32406E989006DAAD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B211FD2406E989006DAAD0 /* ViewController.swift in Sources */,
+				C8B211FB2406E989006DAAD0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B212072406E98E006DAAD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B212102406E98E006DAAD0 /* BeagleWebinarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8B2120D2406E98E006DAAD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8B211F62406E989006DAAD0 /* BeagleWebinar */;
+			targetProxy = C8B2120C2406E98E006DAAD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8B211FE2406E989006DAAD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8B211FF2406E989006DAAD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8B212032406E98E006DAAD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8B212042406E98E006DAAD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8B212122406E98E006DAAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8B212132406E98E006DAAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8B212152406E98E006DAAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NNE38JQP9A;
+				INFOPLIST_FILE = BeagleWebinar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zup.BeagleWebinar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8B212162406E98E006DAAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NNE38JQP9A;
+				INFOPLIST_FILE = BeagleWebinar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zup.BeagleWebinar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8B212182406E98E006DAAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NNE38JQP9A;
+				INFOPLIST_FILE = BeagleWebinarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zup.BeagleWebinarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeagleWebinar.app/BeagleWebinar";
+			};
+			name = Debug;
+		};
+		C8B212192406E98E006DAAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NNE38JQP9A;
+				INFOPLIST_FILE = BeagleWebinarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zup.BeagleWebinarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeagleWebinar.app/BeagleWebinar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8B211F22406E989006DAAD0 /* Build configuration list for PBXProject "BeagleWebinar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B212122406E98E006DAAD0 /* Debug */,
+				C8B212132406E98E006DAAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B212142406E98E006DAAD0 /* Build configuration list for PBXNativeTarget "BeagleWebinar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B212152406E98E006DAAD0 /* Debug */,
+				C8B212162406E98E006DAAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B212172406E98E006DAAD0 /* Build configuration list for PBXNativeTarget "BeagleWebinarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B212182406E98E006DAAD0 /* Debug */,
+				C8B212192406E98E006DAAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8B211EF2406E989006DAAD0 /* Project object */;
+}
