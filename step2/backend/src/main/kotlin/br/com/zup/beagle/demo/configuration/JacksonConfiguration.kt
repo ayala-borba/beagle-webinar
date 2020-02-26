@@ -1,4 +1,4 @@
-package br.com.zup.beagle.demo
+package br.com.zup.beagle.demo.configuration
 
 import br.com.zup.beagle.serialization.jackson.BeagleActionSerializer
 import br.com.zup.beagle.serialization.jackson.BeagleComponentSerializer
