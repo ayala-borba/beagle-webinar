@@ -14,6 +14,10 @@
 		C894FBD22406EBEC00C12324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C894FBD12406EBEC00C12324 /* Assets.xcassets */; };
 		C894FBD52406EBEC00C12324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C894FBD32406EBEC00C12324 /* LaunchScreen.storyboard */; };
 		C894FBE02406EBEC00C12324 /* BeagleWebinarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C894FBDF2406EBEC00C12324 /* BeagleWebinarTests.swift */; };
+		C894FC372407038D00C12324 /* YogaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C894FC352407038C00C12324 /* YogaKit.framework */; };
+		C894FC382407038D00C12324 /* YogaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C894FC352407038C00C12324 /* YogaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C894FC392407038D00C12324 /* BeagleUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C894FC362407038D00C12324 /* BeagleUI.framework */; };
+		C894FC3A2407038D00C12324 /* BeagleUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C894FC362407038D00C12324 /* BeagleUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +29,21 @@
 			remoteInfo = BeagleWebinar;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C894FC2E2407025700C12324 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C894FC3A2407038D00C12324 /* BeagleUI.framework in Embed Frameworks */,
+				C894FC382407038D00C12324 /* YogaKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C894FBC52406EBE800C12324 /* BeagleWebinar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeagleWebinar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +57,8 @@
 		C894FBDB2406EBEC00C12324 /* BeagleWebinarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeagleWebinarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C894FBDF2406EBEC00C12324 /* BeagleWebinarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeagleWebinarTests.swift; sourceTree = "<group>"; };
 		C894FBE12406EBEC00C12324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C894FC352407038C00C12324 /* YogaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YogaKit.framework; sourceTree = "<group>"; };
+		C894FC362407038D00C12324 /* BeagleUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BeagleUI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C894FC392407038D00C12324 /* BeagleUI.framework in Frameworks */,
+				C894FC372407038D00C12324 /* YogaKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +87,7 @@
 				C894FBC72406EBE800C12324 /* BeagleWebinar */,
 				C894FBDE2406EBEC00C12324 /* BeagleWebinarTests */,
 				C894FBC62406EBE800C12324 /* Products */,
+				C894FC192406FC3400C12324 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +123,15 @@
 			path = BeagleWebinarTests;
 			sourceTree = "<group>";
 		};
+		C894FC192406FC3400C12324 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C894FC362407038D00C12324 /* BeagleUI.framework */,
+				C894FC352407038C00C12324 /* YogaKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +142,7 @@
 				C894FBC12406EBE800C12324 /* Sources */,
 				C894FBC22406EBE800C12324 /* Frameworks */,
 				C894FBC32406EBE800C12324 /* Resources */,
+				C894FC2E2407025700C12324 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -364,7 +398,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NNE38JQP9A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BeagleWebinar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,7 +421,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NNE38JQP9A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BeagleWebinar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

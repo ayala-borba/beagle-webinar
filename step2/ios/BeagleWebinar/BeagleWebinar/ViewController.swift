@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import BeagleUI
 
 class ViewController: UIViewController {
 
@@ -15,6 +16,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+        let beagle = BeagleScreenViewController(viewModel: .init(
+            screenType: .declarative(
+                Screen(content: Text("Beagle Screen"))
+            )
+        ))
+        beagle.modalPresentationStyle = .fullScreen
+        present(beagle, animated: true, completion: nil)
+    }
 
 }
 
