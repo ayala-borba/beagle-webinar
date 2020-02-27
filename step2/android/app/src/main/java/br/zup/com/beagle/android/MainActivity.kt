@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //Load the url content into this view
-
         container.loadView(this, url)
 
         //Setting the state listener
