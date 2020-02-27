@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		735B77B1DDF07C16D0DD1DD9 /* Pods_BeagleWebinar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4695386105B7FB1B5F6944 /* Pods_BeagleWebinar.framework */; };
+		B223A1A6035C0EAD31A8040E /* Pods_BeagleWebinarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00E093CF04CA330FD988D40 /* Pods_BeagleWebinarTests.framework */; };
+		C815508024070A54005B059F /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C815507F24070A54005B059F /* CustomText.swift */; };
 		C894FBC92406EBE800C12324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C894FBC82406EBE800C12324 /* AppDelegate.swift */; };
 		C894FBCB2406EBE800C12324 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C894FBCA2406EBE800C12324 /* SceneDelegate.swift */; };
 		C894FBCD2406EBE800C12324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C894FBCC2406EBE800C12324 /* ViewController.swift */; };
@@ -14,10 +17,6 @@
 		C894FBD22406EBEC00C12324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C894FBD12406EBEC00C12324 /* Assets.xcassets */; };
 		C894FBD52406EBEC00C12324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C894FBD32406EBEC00C12324 /* LaunchScreen.storyboard */; };
 		C894FBE02406EBEC00C12324 /* BeagleWebinarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C894FBDF2406EBEC00C12324 /* BeagleWebinarTests.swift */; };
-		C894FC372407038D00C12324 /* YogaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C894FC352407038C00C12324 /* YogaKit.framework */; };
-		C894FC382407038D00C12324 /* YogaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C894FC352407038C00C12324 /* YogaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C894FC392407038D00C12324 /* BeagleUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C894FC362407038D00C12324 /* BeagleUI.framework */; };
-		C894FC3A2407038D00C12324 /* BeagleUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C894FC362407038D00C12324 /* BeagleUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +36,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C894FC3A2407038D00C12324 /* BeagleUI.framework in Embed Frameworks */,
-				C894FC382407038D00C12324 /* YogaKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +43,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C4695386105B7FB1B5F6944 /* Pods_BeagleWebinar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeagleWebinar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A98237681044FAEFF3E74C /* Pods-BeagleWebinarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleWebinarTests.debug.xcconfig"; path = "Target Support Files/Pods-BeagleWebinarTests/Pods-BeagleWebinarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97699B712F554B921B2A058B /* Pods-BeagleWebinar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleWebinar.debug.xcconfig"; path = "Target Support Files/Pods-BeagleWebinar/Pods-BeagleWebinar.debug.xcconfig"; sourceTree = "<group>"; };
+		B00E093CF04CA330FD988D40 /* Pods_BeagleWebinarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeagleWebinarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C815507F24070A54005B059F /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
 		C894FBC52406EBE800C12324 /* BeagleWebinar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeagleWebinar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C894FBC82406EBE800C12324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C894FBCA2406EBE800C12324 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,8 +59,8 @@
 		C894FBDB2406EBEC00C12324 /* BeagleWebinarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeagleWebinarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C894FBDF2406EBEC00C12324 /* BeagleWebinarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeagleWebinarTests.swift; sourceTree = "<group>"; };
 		C894FBE12406EBEC00C12324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C894FC352407038C00C12324 /* YogaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YogaKit.framework; sourceTree = "<group>"; };
-		C894FC362407038D00C12324 /* BeagleUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BeagleUI.framework; sourceTree = "<group>"; };
+		C94DB56FE85FEFD383E321E1 /* Pods-BeagleWebinarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleWebinarTests.release.xcconfig"; path = "Target Support Files/Pods-BeagleWebinarTests/Pods-BeagleWebinarTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE6E0FF27B3926D6A7487DCD /* Pods-BeagleWebinar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleWebinar.release.xcconfig"; path = "Target Support Files/Pods-BeagleWebinar/Pods-BeagleWebinar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C894FC392407038D00C12324 /* BeagleUI.framework in Frameworks */,
-				C894FC372407038D00C12324 /* YogaKit.framework in Frameworks */,
+				735B77B1DDF07C16D0DD1DD9 /* Pods_BeagleWebinar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +76,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B223A1A6035C0EAD31A8040E /* Pods_BeagleWebinarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C815507E24070A38005B059F /* CustomWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				C815507F24070A54005B059F /* CustomText.swift */,
+			);
+			path = CustomWidgets;
+			sourceTree = "<group>";
+		};
 		C894FBBC2406EBE800C12324 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 				C894FBDE2406EBEC00C12324 /* BeagleWebinarTests */,
 				C894FBC62406EBE800C12324 /* Products */,
 				C894FC192406FC3400C12324 /* Frameworks */,
+				C9FB4AF6592C0FF242F952D8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +114,7 @@
 		C894FBC72406EBE800C12324 /* BeagleWebinar */ = {
 			isa = PBXGroup;
 			children = (
+				C815507E24070A38005B059F /* CustomWidgets */,
 				C894FBC82406EBE800C12324 /* AppDelegate.swift */,
 				C894FBCA2406EBE800C12324 /* SceneDelegate.swift */,
 				C894FBCC2406EBE800C12324 /* ViewController.swift */,
@@ -126,10 +138,21 @@
 		C894FC192406FC3400C12324 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C894FC362407038D00C12324 /* BeagleUI.framework */,
-				C894FC352407038C00C12324 /* YogaKit.framework */,
+				2C4695386105B7FB1B5F6944 /* Pods_BeagleWebinar.framework */,
+				B00E093CF04CA330FD988D40 /* Pods_BeagleWebinarTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9FB4AF6592C0FF242F952D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97699B712F554B921B2A058B /* Pods-BeagleWebinar.debug.xcconfig */,
+				DE6E0FF27B3926D6A7487DCD /* Pods-BeagleWebinar.release.xcconfig */,
+				52A98237681044FAEFF3E74C /* Pods-BeagleWebinarTests.debug.xcconfig */,
+				C94DB56FE85FEFD383E321E1 /* Pods-BeagleWebinarTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,10 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C894FBE42406EBEC00C12324 /* Build configuration list for PBXNativeTarget "BeagleWebinar" */;
 			buildPhases = (
+				AAD5F06590BBC19539972744 /* [CP] Check Pods Manifest.lock */,
 				C894FBC12406EBE800C12324 /* Sources */,
 				C894FBC22406EBE800C12324 /* Frameworks */,
 				C894FBC32406EBE800C12324 /* Resources */,
 				C894FC2E2407025700C12324 /* Embed Frameworks */,
+				00B5234FA7F3DB9364378907 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C894FBE72406EBEC00C12324 /* Build configuration list for PBXNativeTarget "BeagleWebinarTests" */;
 			buildPhases = (
+				621199485EF04FF3A675E41C /* [CP] Check Pods Manifest.lock */,
 				C894FBD72406EBEC00C12324 /* Sources */,
 				C894FBD82406EBEC00C12324 /* Frameworks */,
 				C894FBD92406EBEC00C12324 /* Resources */,
@@ -229,6 +255,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00B5234FA7F3DB9364378907 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeagleWebinar/Pods-BeagleWebinar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeagleWebinar/Pods-BeagleWebinar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeagleWebinar/Pods-BeagleWebinar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		621199485EF04FF3A675E41C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeagleWebinarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD5F06590BBC19539972744 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeagleWebinar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C894FBC12406EBE800C12324 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -237,6 +327,7 @@
 				C894FBCD2406EBE800C12324 /* ViewController.swift in Sources */,
 				C894FBC92406EBE800C12324 /* AppDelegate.swift in Sources */,
 				C894FBCB2406EBE800C12324 /* SceneDelegate.swift in Sources */,
+				C815508024070A54005B059F /* CustomText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +485,7 @@
 		};
 		C894FBE52406EBEC00C12324 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97699B712F554B921B2A058B /* Pods-BeagleWebinar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -417,6 +509,7 @@
 		};
 		C894FBE62406EBEC00C12324 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6E0FF27B3926D6A7487DCD /* Pods-BeagleWebinar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,6 +533,7 @@
 		};
 		C894FBE82406EBEC00C12324 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A98237681044FAEFF3E74C /* Pods-BeagleWebinarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +556,7 @@
 		};
 		C894FBE92406EBEC00C12324 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94DB56FE85FEFD383E321E1 /* Pods-BeagleWebinarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

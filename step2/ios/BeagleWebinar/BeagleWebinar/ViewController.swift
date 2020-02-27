@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 
         let beagle = BeagleScreenViewController(viewModel: .init(
             screenType: .declarative(
-                Screen(content: Text("Beagle Screen"))
+                Screen(content: CustomText(text: "TEstando"))
             )
         ))
         beagle.modalPresentationStyle = .fullScreen
