@@ -13,7 +13,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -21,12 +20,24 @@ class ViewController: UIViewController {
 
         let beagle = BeagleScreenViewController(viewModel: .init(
             screenType: .declarative(
-                Screen(content: CustomText(text: "TEstando"))
+                Screen(content: CustomText(text: "Testando"))
             )
         ))
+
+/// Receiving from server
+//        Beagle.registerCustomComponent(
+//            "customText",
+//            componentType: CustomText.self,
+//            entityType: CustomTextEntity.self
+//        )
+//
+//        let beagle = BeagleScreenViewController(viewModel: .init(
+//            screenType: .remote("http://localhost:8080/custom/testando", fallback: nil)
+//        ))
+/// To be able to use http (without s) we need to allow App Transport Security
+
         beagle.modalPresentationStyle = .fullScreen
         present(beagle, animated: true, completion: nil)
     }
-
 }
 

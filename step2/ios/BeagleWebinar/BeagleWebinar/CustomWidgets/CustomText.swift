@@ -37,6 +37,7 @@ struct CustomText: Widget {
     var accessibility: Accessibility?
 
     func toView(context: BeagleContext, dependencies: RenderableDependencies) -> UIView {
+//      Returning just a simple label
 //        let label = UILabel(frame: .zero)
 //        label.text = text
 //        label.numberOfLines = 0
@@ -58,14 +59,14 @@ class CustomTextView: UIView {
         let label = UILabel()
         label.font = .systemFont(ofSize: 17.0, weight: .bold)
         label.numberOfLines = 0
-        label.textColor = .black
+        label.textColor = .white
         return label
     }()
 
     init(text: String) {
         super.init(frame: .zero)
 
-        backgroundColor = .blue
+        backgroundColor = .systemBlue
 
         label.text = text
 
