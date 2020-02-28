@@ -3,6 +3,7 @@
     package="br.zup.com.beagle.android">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
+        android:usesCleartextTraffic="true"
         android:name=".DemoAndroidApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

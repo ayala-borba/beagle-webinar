@@ -2,6 +2,8 @@ package br.zup.com.beagle.android
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import br.com.zup.beagle.core.Appearance
+import br.com.zup.beagle.core.CornerRadius
 import br.com.zup.beagle.core.ServerDrivenComponent
 import br.com.zup.beagle.utils.toView
 import br.com.zup.beagle.widget.core.*
@@ -10,51 +12,29 @@ import br.com.zup.beagle.widget.form.FormInput
 import br.com.zup.beagle.widget.form.FormMethodType
 import br.com.zup.beagle.widget.form.FormSubmit
 import br.com.zup.beagle.widget.layout.Container
-import br.com.zup.beagle.widget.layout.Screen
 import br.com.zup.beagle.widget.ui.Button
+import br.com.zup.beagle.widget.ui.Image
+import br.com.zup.beagle.widget.ui.NetworkImage
 import br.zup.com.beagle.android.widgets.TextField
 import br.zup.com.beagle.android.widgets.TextFieldInputType
 
 class MainActivity : AppCompatActivity() {
-    private val url = "http://10.0.2.2:8080/text/Borracha"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_main)
-//
-//        //Load the url content into this view
-//        container.loadView(this, url)
-//
-//        //Setting the state listener
-//        container.setBeagleStateChangedListener(object : StateChangedListener {
-//            override fun onStateChanged(state: BeagleViewState) {
-//                when (state) {
-//                    is BeagleViewState.Error -> {
-//                        state.throwable.printStackTrace()
-//                    }
-//                    is BeagleViewState.LoadStarted -> {
-//                        Log.d("BEAGLE_DEMO", "Loading view $url")
-//                    }
-//                    is BeagleViewState.LoadFinished -> {
-//                        Log.d("BEAGLE_DEMO", "Finished loading view $url")
-//                    }
-//                }
-//            }
-//        })
 
-        val formName = ITIFormName()
+        val formName = ComposeFormLogin()
 
         setContentView(formName.toView(this))
 
     }
 
-
 }
 
-class ITIFormName : ComposeComponent() {
+class ComposeFormLogin : ComposeComponent() {
     override fun build(): ServerDrivenComponent {
         return Form(
-            path = "/validate-name",
+            path = "/validate-login",
             method = FormMethodType.POST,
             child = Container(
                 children = listOf(
@@ -72,37 +52,46 @@ class ITIFormName : ComposeComponent() {
 
     private fun buildContent() = Container(
         children = listOf(
+            NetworkImage(
+                path = "https://cdn-images-1.medium.com/max/1200/1*kjiNJPB3Y-ZVmjxco_bORA.png"
+            ).applyFlex(
+                Flex(
+                    alignSelf = Alignment.CENTER,
+                    size = Size(
+                        height = UnitValue(50.0, UnitType.REAL),
+                        width = UnitValue(50.0, UnitType.REAL)
+                    )
+                )
+            ).applyAppearance(
+                Appearance(
+                    cornerRadius = CornerRadius(25.0)
+                )
+            ),
             FormInput(
-                name = "name",
+                name = "login",
                 child = TextField(
-                    description = "digite seu nome",
-                    hint = "nome",
-//                color = "#FFFFFF",
+                    hint = "usuario",
+                    inputType = TextFieldInputType.TEXT
+                )
+            ),
+            FormInput(
+                name = "senha",
+                child = TextField(
+                    hint = "senha",
                     inputType = TextFieldInputType.TEXT
                 )
             )
         )
     ).applyFlex(
         flex = Flex(
-            size = Size(
-                width = UnitValue(
-                    value = 100.0,
-                    type = UnitType.PERCENT
-                )
-            ),
-            margin = EdgeValue(
-                all = UnitValue(
-                    value = 15.0,
-                    type = UnitType.REAL
-                )
-            )
+            margin = EdgeValue(all = UnitValue(20.0, UnitType.REAL))
         )
     )
 
     private fun buildFooter() = Container(
         children = listOf(
             (FormSubmit(
-                child = Button("cadastrar", style = "primaryButton")
+                child = Button("login", style = "default")
             ))
         )
     ).applyFlex(
