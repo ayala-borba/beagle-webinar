@@ -1,0 +1,16 @@
+install! 'cocoapods', :generate_multiple_pod_projects => true
+platform :ios, '10.3'
+supports_swift_versions '> 4.0', '<= 5.2'
+
+target 'BeagleWebinar' do
+  use_frameworks!
+
+  pod 'BeagleUI', :git => 'git@github.com:ZupIT/darwin-beagle-ios.git'
+  pod 'YogaKit', :git => 'git@github.com:lucasaraujo/yoga.git'
+
+  target 'BeagleWebinarTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+  
+end
