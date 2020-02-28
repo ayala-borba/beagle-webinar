@@ -10,7 +10,6 @@
 		735B77B1DDF07C16D0DD1DD9 /* Pods_BeagleWebinar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4695386105B7FB1B5F6944 /* Pods_BeagleWebinar.framework */; };
 		B223A1A6035C0EAD31A8040E /* Pods_BeagleWebinarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00E093CF04CA330FD988D40 /* Pods_BeagleWebinarTests.framework */; };
 		C815508024070A54005B059F /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C815507F24070A54005B059F /* CustomText.swift */; };
-		C867D5CC24095B0400F37853 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867D5CB24095B0400F37853 /* TextField.swift */; };
 		C894FBC92406EBE800C12324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C894FBC82406EBE800C12324 /* AppDelegate.swift */; };
 		C894FBCB2406EBE800C12324 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C894FBCA2406EBE800C12324 /* SceneDelegate.swift */; };
 		C894FBCD2406EBE800C12324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C894FBCC2406EBE800C12324 /* ViewController.swift */; };
@@ -49,7 +48,6 @@
 		97699B712F554B921B2A058B /* Pods-BeagleWebinar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleWebinar.debug.xcconfig"; path = "Target Support Files/Pods-BeagleWebinar/Pods-BeagleWebinar.debug.xcconfig"; sourceTree = "<group>"; };
 		B00E093CF04CA330FD988D40 /* Pods_BeagleWebinarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeagleWebinarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C815507F24070A54005B059F /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
-		C867D5CB24095B0400F37853 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		C894FBC52406EBE800C12324 /* BeagleWebinar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeagleWebinar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C894FBC82406EBE800C12324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C894FBCA2406EBE800C12324 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				C815507F24070A54005B059F /* CustomText.swift */,
-				C867D5CB24095B0400F37853 /* TextField.swift */,
 			);
 			path = CustomWidgets;
 			sourceTree = "<group>";
@@ -330,7 +327,6 @@
 				C894FBCD2406EBE800C12324 /* ViewController.swift in Sources */,
 				C894FBC92406EBE800C12324 /* AppDelegate.swift in Sources */,
 				C894FBCB2406EBE800C12324 /* SceneDelegate.swift in Sources */,
-				C867D5CC24095B0400F37853 /* TextField.swift in Sources */,
 				C815508024070A54005B059F /* CustomText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
