@@ -61,7 +61,7 @@ class ComposeFormLogin : ComposeComponent() {
                 name = "password",
                 child = TextField(
                     hint = "senha",
-                    inputType = TextFieldInputType.TEXT
+                    inputType = TextFieldInputType.PASSWORD
                 )
             )
         )
