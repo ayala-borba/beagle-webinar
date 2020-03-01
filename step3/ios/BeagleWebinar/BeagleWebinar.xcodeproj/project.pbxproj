@@ -17,6 +17,7 @@
 		C894FBD22406EBEC00C12324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C894FBD12406EBEC00C12324 /* Assets.xcassets */; };
 		C894FBD52406EBEC00C12324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C894FBD32406EBEC00C12324 /* LaunchScreen.storyboard */; };
 		C894FBE02406EBEC00C12324 /* BeagleWebinarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C894FBDF2406EBEC00C12324 /* BeagleWebinarTests.swift */; };
+		C8E68A9D2409B939008D2BF5 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E68A9C2409B939008D2BF5 /* TextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		C894FBDB2406EBEC00C12324 /* BeagleWebinarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeagleWebinarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C894FBDF2406EBEC00C12324 /* BeagleWebinarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeagleWebinarTests.swift; sourceTree = "<group>"; };
 		C894FBE12406EBEC00C12324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E68A9C2409B939008D2BF5 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		C94DB56FE85FEFD383E321E1 /* Pods-BeagleWebinarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleWebinarTests.release.xcconfig"; path = "Target Support Files/Pods-BeagleWebinarTests/Pods-BeagleWebinarTests.release.xcconfig"; sourceTree = "<group>"; };
 		DE6E0FF27B3926D6A7487DCD /* Pods-BeagleWebinar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeagleWebinar.release.xcconfig"; path = "Target Support Files/Pods-BeagleWebinar/Pods-BeagleWebinar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				C815507F24070A54005B059F /* CustomText.swift */,
+				C8E68A9C2409B939008D2BF5 /* TextField.swift */,
 			);
 			path = CustomWidgets;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				C894FBCD2406EBE800C12324 /* ViewController.swift in Sources */,
 				C894FBC92406EBE800C12324 /* AppDelegate.swift in Sources */,
 				C894FBCB2406EBE800C12324 /* SceneDelegate.swift in Sources */,
+				C8E68A9D2409B939008D2BF5 /* TextField.swift in Sources */,
 				C815508024070A54005B059F /* CustomText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
