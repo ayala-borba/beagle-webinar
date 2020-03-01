@@ -5,7 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import br.com.zup.beagle.core.Appearance
 import br.com.zup.beagle.core.CornerRadius
 import br.com.zup.beagle.core.ServerDrivenComponent
-import br.com.zup.beagle.utils.toView
+import br.com.zup.beagle.view.BeagleActivity
+import br.com.zup.beagle.view.ScreenRequest
 import br.com.zup.beagle.widget.core.*
 import br.com.zup.beagle.widget.form.Form
 import br.com.zup.beagle.widget.form.FormInput
@@ -13,19 +14,26 @@ import br.com.zup.beagle.widget.form.FormMethodType
 import br.com.zup.beagle.widget.form.FormSubmit
 import br.com.zup.beagle.widget.layout.Container
 import br.com.zup.beagle.widget.ui.Button
-import br.com.zup.beagle.widget.ui.Image
 import br.com.zup.beagle.widget.ui.NetworkImage
 import br.zup.com.beagle.android.widgets.TextField
 import br.zup.com.beagle.android.widgets.TextFieldInputType
 
 class MainActivity : AppCompatActivity() {
 
+    private val url = "/form-login"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val formName = ComposeFormLogin()
+//        val formName = ComposeFormLogin()
+//        setContentView(formName.toView(this))
 
-        setContentView(formName.toView(this))
+        startActivity(
+            BeagleActivity.newIntent(
+                this,
+                ScreenRequest(url)
+            )
+        )
 
     }
 

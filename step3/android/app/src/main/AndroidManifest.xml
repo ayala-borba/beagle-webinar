@@ -18,6 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SampleServerDrivenActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/AppTheme.NoToolbar" />
+
     </application>
+
 
 </manifest>
