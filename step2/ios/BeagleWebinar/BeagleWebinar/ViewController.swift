@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 
         let beagle = BeagleScreenViewController(viewModel: .init(
             screenType: .declarative(
-                Screen(content: CustomText(text: "Testando"))
+                Screen(content: Text("Hello Beagle!"))
             )
         ))
 

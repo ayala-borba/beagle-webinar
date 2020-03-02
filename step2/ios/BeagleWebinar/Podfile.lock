@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   BeagleUI:
-    :commit: 0578492bdf21bede6d16ac2f2c39804d5e00dd5b
+    :commit: 0868e14193c9ff73019107c63bfd121ff5e4ff22
     :git: "git@github.com:ZupIT/darwin-beagle-ios.git"
   YogaKit:
     :commit: 18c001c17865e77e56b70ff7ac7048deb5cbe56a
@@ -32,6 +32,6 @@ SPEC CHECKSUMS:
   Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
   YogaKit: 3a733275fd1639b96a304f6f5c11421478371e6b
 
-PODFILE CHECKSUM: b3f69a505af635dd7b82099c68ff1b717bbc9095
+PODFILE CHECKSUM: d3d487168cb28a3e90b3f5a2890a7059f64e8dda
 
 COCOAPODS: 1.8.4
