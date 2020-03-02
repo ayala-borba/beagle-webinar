@@ -4,19 +4,21 @@ import br.com.zup.beagle.action.*
 import br.com.zup.beagle.demo.dto.request.LoginForm
 import br.com.zup.beagle.demo.ui.ComposeFormLogin
 import br.com.zup.beagle.demo.widget.CustomText
+import br.com.zup.beagle.widget.Widget
 import br.com.zup.beagle.widget.core.Alignment
 import br.com.zup.beagle.widget.core.Flex
 import br.com.zup.beagle.widget.core.JustifyContent
 import br.com.zup.beagle.widget.layout.NavigationBar
 import br.com.zup.beagle.widget.layout.Screen
 import br.com.zup.beagle.widget.ui.Text
+import br.com.zup.beagle.widget.ui.TextAlignment
 import org.springframework.stereotype.Service
 
 @Service
 class BeagleService {
-    fun getText(name: String) = Text("Hello, $name!")
+    fun getText(name: String) = centered(Text("Hello, $name!", alignment = TextAlignment.CENTER))
 
-    fun getCustomText(name: String) = CustomText(name)
+    fun getCustomText(name: String) = centered(CustomText(name))
 
     fun createFormLogin() = Screen(
         navigationBar = NavigationBar(
@@ -41,7 +43,9 @@ class BeagleService {
         else -> Navigate(type = NavigationType.SWAP_VIEW, path = "/welcome/${loginForm.login}")
     }
 
-    fun createWelcome(user: String) = Text("Bem-vindo $user!")
+    fun createWelcome(user: String) = centered(Text("Bem-vindo $user!", alignment = TextAlignment.CENTER))
+
+    private fun centered(widget: Widget) = widget
         .applyFlex(
             flex = Flex(
                 grow = 1.0,
