@@ -10,17 +10,21 @@ import com.fasterxml.jackson.databind.module.SimpleModule
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
-import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder
 
 @Configuration
 class JacksonConfiguration {
     @Bean
-    open fun jacksonBuilder(): Jackson2ObjectMapperBuilder {
-        return Jackson2ObjectMapperBuilder()
-            .serializationInclusion(JsonInclude.Include.NON_NULL)
-            .serializers(BeagleComponentSerializer())
-            .serializers(BeagleActionSerializer())
-            .serializers(BeagleScreenSerializer())
-            .serializers(BeagleScreenBuilderSerializer())
+    fun objectMapper(): ObjectMapper {
+        val module = SimpleModule().apply {
+            this.addSerializer(BeagleActionSerializer())
+            this.addSerializer(BeagleComponentSerializer())
+            this.addSerializer(BeagleScreenSerializer())
+            this.addSerializer(BeagleScreenBuilderSerializer())
+        }
+
+        return jacksonObjectMapper().apply {
+            this.registerModule(module)
+            this.setDefaultPropertyInclusion(JsonInclude.Include.NON_NULL)
+        }
     }
 }
