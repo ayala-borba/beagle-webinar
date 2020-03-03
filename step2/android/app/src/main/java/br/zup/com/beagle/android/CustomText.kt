@@ -6,8 +6,8 @@ import br.com.zup.beagle.annotation.RegisterWidget
 import br.com.zup.beagle.widget.core.WidgetView
 
 @RegisterWidget
-class CustomText(val name: String) : WidgetView() {
+data class CustomText(val text: String) : WidgetView() {
     override fun toView(context: Context) = TextView(context).apply {
-        text = name
+        this.text = this@CustomText.text
     }
 }

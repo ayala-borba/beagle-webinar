@@ -6,18 +6,20 @@ import androidx.appcompat.app.AppCompatActivity
 import br.com.zup.beagle.utils.loadView
 import br.com.zup.beagle.utils.setBeagleStateChangedListener
 import br.com.zup.beagle.view.BeagleViewState
+import br.com.zup.beagle.view.ScreenRequest
 import br.com.zup.beagle.view.StateChangedListener
+import br.com.zup.beagle.widget.layout.Screen
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    private val url = "http://10.0.2.2:8080/text/Borracha"
+    private val url = "http://10.0.2.2:8080/custom/Borracha"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         //Load the url content into this view
-        container.loadView(this, url)
+        container.loadView(this, ScreenRequest(url))
 
         //Setting the state listener
         container.setBeagleStateChangedListener(object : StateChangedListener {

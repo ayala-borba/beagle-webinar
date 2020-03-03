@@ -25,7 +25,7 @@ android {
     }
 }
 
-ext.beagle_version = '0.1.2'
+ext.beagle_version = '0.1.4'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
