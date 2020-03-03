@@ -5,6 +5,7 @@ import br.com.zup.beagle.widget.Widget
 import br.com.zup.beagle.widget.core.Alignment
 import br.com.zup.beagle.widget.core.Flex
 import br.com.zup.beagle.widget.core.JustifyContent
+import br.com.zup.beagle.widget.layout.Container
 import br.com.zup.beagle.widget.ui.Text
 import org.springframework.stereotype.Service
 
@@ -14,14 +15,12 @@ class BeagleService {
 
     fun getCustomText(name: String) = centered(CustomText(name))
 
-    private fun centered(widget: Widget) = widget
+    private fun centered(widget: Widget) = Container(children = listOf(widget))
         .applyFlex(
             flex = Flex(
                 grow = 1.0,
                 justifyContent = JustifyContent.CENTER,
-                alignContent = Alignment.CENTER,
-                alignItems = Alignment.CENTER,
-                alignSelf = Alignment.CENTER
+                alignItems = Alignment.CENTER
             )
         )
 }
