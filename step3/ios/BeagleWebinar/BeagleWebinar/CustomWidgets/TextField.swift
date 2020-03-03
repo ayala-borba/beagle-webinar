@@ -12,7 +12,13 @@ import UIKit
 
 struct TextFieldEntity: WidgetEntity {
 
-    let placeHolder: String
+    var hint: String?
+    var description: String?
+    var color: String?
+    var placeHolder: String?
+    var mask: String?
+    var inputType: TextFieldInputType?
+
 
     var flex: FlexEntity?
     var appearance: AppearanceEntity?
@@ -20,7 +26,11 @@ struct TextFieldEntity: WidgetEntity {
 
     func mapToComponent() throws -> ServerDrivenComponent {
         return TextField(
-            placeHolder: placeHolder,
+            hint: hint,
+            description: description,
+            color: color,
+            mask: mask,
+            inputType: inputType,
             appearance: try appearance?.mapToUIModel(),
             flex: try flex?.mapToUIModel(),
             accessibility: try accessibility?.mapToUIModel()
@@ -28,18 +38,27 @@ struct TextFieldEntity: WidgetEntity {
     }
 }
 
+enum TextFieldInputType: String, Codable {
+    case NUMBER
+    case PASSWORD
+    case TEXT
+}
+
 struct TextField: Widget {
 
-    var placeHolder: String
+    var hint: String?
+    var description: String?
+    var color: String?
+    var mask: String?
+    var inputType: TextFieldInputType?
 
     var appearance: Appearance?
     var flex: Flex?
     var accessibility: Accessibility?
 
     func toView(context: BeagleContext, dependencies: RenderableDependencies) -> UIView {
-        let textField = TextFieldView()
+        let textField = TextFieldView(widget: self)
         textField.borderStyle = .roundedRect
-        textField.placeholder = placeHolder
 
         textField.applyAppearance(appearance)
         textField.flex.setupFlex(flex)
@@ -48,16 +67,30 @@ struct TextField: Widget {
     }
 }
 
-
 class TextFieldView: UITextField, UITextFieldDelegate, InputValue, WidgetStateObservable {
 
     private(set) var observable = Observable<WidgetState>(value: WidgetState(value: text))
 
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+    init(widget: TextField) {
+        super.init(frame: .zero)
+
+        placeholder = widget.hint
+
+        if let color = widget.color {
+            textColor = UIColor(hex: color)
+        }
+
+        if let input = widget.inputType {
+            textContentType = textContentType(for: input)
+        }
+
         delegate = self
         addTarget(self, action: #selector(textChanged), for: .editingChanged)
     }
+
+//    override func sizeThatFits(_ size: CGSize) -> CGSize {
+//        return size
+//    }
 
     @available(*, unavailable)
     required init?(coder aDecoder: NSCoder) {
@@ -75,5 +108,16 @@ class TextFieldView: UITextField, UITextFieldDelegate, InputValue, WidgetStateOb
 
     @objc private func textChanged() {
         observable.value.value = text
+    }
+
+    private func textContentType(for input: TextFieldInputType) -> UITextContentType {
+        switch input {
+        case .NUMBER:
+            return .telephoneNumber
+        case .PASSWORD:
+            return .password
+        case .TEXT:
+            return .username
+        }
     }
 }

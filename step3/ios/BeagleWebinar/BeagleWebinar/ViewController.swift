@@ -18,14 +18,16 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
+        registerCustomWidgets()
+
         let margin = Flex(margin: Flex.EdgeValue(all: UnitValue(value: 10, type: .real)))
 
         let children: [ServerDrivenComponent] = [
             FormInput(name: "username", child:
-                TextField(placeHolder: "Usuario", flex: margin)
+                TextField(hint: "Usuario", flex: margin)
             ),
             FormInput(name: "password", child:
-                TextField(placeHolder: "Senha", flex: margin)
+                TextField(hint: "Senha", flex: margin)
             ),
             FormSubmit(child: Button(text: "Entrar", flex: margin))
         ]
@@ -39,29 +41,32 @@ class ViewController: UIViewController {
         let form = Form(path: "submitForm", method: .post, child: content)
 
 
-        let beagle = BeagleScreenViewController(viewModel: .init(
-            screenType: .declarative(
-                Screen(content: form)
-            )
-        ))
-
-
-/// Receiving from server
-//        Beagle.registerCustomComponent(
-//            "customText",
-//            componentType: CustomText.self,
-//            entityType: CustomTextEntity.self
-//        )
-//
 //        let beagle = BeagleScreenViewController(viewModel: .init(
-//            screenType: .remote("http://localhost:8080/custom/testando", fallback: nil)
+//            screenType: .declarative(
+//                Screen(content: form)
+//            )
 //        ))
-/// To be able to use http (without s) we need to allow App Transport Security
 
-        Beagle.registerCustomComponent("TextField", componentType: TextField.self, entityType: TextFieldEntity.self)
+        let beagle = BeagleScreenViewController(viewModel: .init(
+            screenType: .remote("http://localhost:8080/form-login", fallback: nil)
+        ))
 
         beagle.modalPresentationStyle = .fullScreen
         present(beagle, animated: true, completion: nil)
+    }
+
+    func registerCustomWidgets() {
+        Beagle.registerCustomComponent(
+            "customText",
+            componentType: CustomText.self,
+            entityType: CustomTextEntity.self
+        )
+
+        Beagle.registerCustomComponent(
+            "TextField",
+            componentType: TextField.self,
+            entityType: TextFieldEntity.self
+        )
     }
 }
 
