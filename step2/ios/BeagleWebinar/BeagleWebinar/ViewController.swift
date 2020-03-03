@@ -1,9 +1,5 @@
 //
-//  ViewController.swift
-//  BeagleWebinar
-//
-//  Created by Frederico Franco on 26/02/20.
-//  Copyright © 2020 Frederico Franco. All rights reserved.
+//  Copyright © 2020 Zup IT. All rights reserved.
 //
 
 import UIKit
@@ -32,7 +28,7 @@ class ViewController: UIViewController {
 //        )
 //
 //        let beagle = BeagleScreenViewController(viewModel: .init(
-//            screenType: .remote("http://localhost:8080/custom/testando", fallback: nil)
+//            screenType: .remote("http://10.0.1.139:8080/custom/testando", fallback: nil)
 //        ))
 /// To be able to use http (without s) we need to allow App Transport Security
 
