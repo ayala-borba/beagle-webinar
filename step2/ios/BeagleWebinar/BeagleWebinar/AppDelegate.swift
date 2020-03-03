@@ -1,9 +1,5 @@
 //
-//  AppDelegate.swift
-//  BeagleWebinar
-//
-//  Created by Frederico Franco on 26/02/20.
-//  Copyright © 2020 Frederico Franco. All rights reserved.
+//  Copyright © 2020 Zup IT. All rights reserved.
 //
 
 import UIKit

@@ -1,57 +1,10 @@
 //
-//  CustomText.swift
-//  BeagleWebinar
-//
-//  Created by Frederico Franco on 26/02/20.
-//  Copyright © 2020 Frederico Franco. All rights reserved.
+//  Copyright © 2020 Zup IT. All rights reserved.
 //
 
 import Foundation
 import BeagleUI
 import UIKit
-
-struct CustomTextEntity: WidgetEntity {
-
-    let text: String
-
-    var flex: FlexEntity?
-    var appearance: AppearanceEntity?
-    var accessibility: AccessibilityEntity?
-
-    func mapToComponent() throws -> ServerDrivenComponent {
-        return CustomText(
-            text: text,
-            appearance: try appearance?.mapToUIModel(),
-            flex: try flex?.mapToUIModel(),
-            accessibility: try accessibility?.mapToUIModel()
-        )
-    }
-}
-
-struct CustomText: Widget {
-
-    let text: String
-
-    var appearance: Appearance?
-    var flex: Flex?
-    var accessibility: Accessibility?
-
-    func toView(context: BeagleContext, dependencies: RenderableDependencies) -> UIView {
-//      Returning just a simple label
-//        let label = UILabel(frame: .zero)
-//        label.text = text
-//        label.numberOfLines = 0
-//        return label
-
-        let view = CustomTextView(text: text)
-
-        view.flex.setupFlex(flex)
-        view.applyAppearance(appearance)
-        dependencies.accessibility.applyAccessibilityAttributes(accessibility, to: view)
-        return view
-    }
-}
-
 
 class CustomTextView: UIView {
 
@@ -59,14 +12,12 @@ class CustomTextView: UIView {
         let label = UILabel()
         label.font = .systemFont(ofSize: 17.0, weight: .bold)
         label.numberOfLines = 0
-        label.textColor = .white
+        label.textColor = .black
         return label
     }()
 
     init(text: String) {
         super.init(frame: .zero)
-
-        backgroundColor = .systemBlue
 
         label.text = text
 
@@ -87,5 +38,47 @@ class CustomTextView: UIView {
     @available(*, unavailable)
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+}
+
+// MARK: - Widget
+
+struct CustomText: Widget {
+
+    let text: String
+
+    var id: String?
+    var appearance: Appearance?
+    var flex: Flex?
+    var accessibility: Accessibility?
+
+    func toView(context: BeagleContext, dependencies: RenderableDependencies) -> UIView {
+        let view = CustomTextView(text: text)
+
+        view.applyAccessibilityIdentifier(id)
+        view.flex.setupFlex(flex)
+        view.applyAppearance(appearance)
+        dependencies.accessibility.applyAccessibilityAttributes(accessibility, to: view)
+        return view
+    }
+}
+
+// MARK: - Entity
+
+struct CustomTextEntity: WidgetEntity {
+
+    let text: String
+
+    var flex: FlexEntity?
+    var appearance: AppearanceEntity?
+    var accessibility: AccessibilityEntity?
+
+    func mapToComponent() throws -> ServerDrivenComponent {
+        return CustomText(
+            text: text,
+            appearance: try appearance?.mapToUIModel(),
+            flex: try flex?.mapToUIModel(),
+            accessibility: try accessibility?.mapToUIModel()
+        )
     }
 }

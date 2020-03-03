@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   BeagleUI:
-    :commit: 4bb5e9b3d05f360ff6528605aa57c1d988a356ca
+    :commit: 4345a8eb884d81e81517d41037738c0944d575f2
     :git: "git@github.com:ZupIT/darwin-beagle-ios.git"
   YogaKit:
     :commit: 18c001c17865e77e56b70ff7ac7048deb5cbe56a
