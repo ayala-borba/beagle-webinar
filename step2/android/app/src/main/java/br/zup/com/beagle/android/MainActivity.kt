@@ -18,7 +18,7 @@ import br.com.zup.beagle.widget.layout.Screen
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    private val url = "http://10.0.2.2:8080/custom/borracha"
+    private val url = "/custom/borracha"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
