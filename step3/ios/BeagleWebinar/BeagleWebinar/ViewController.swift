@@ -20,35 +20,8 @@ class ViewController: UIViewController {
 
         registerCustomWidgets()
 
-        let margin = Flex(margin: Flex.EdgeValue(all: UnitValue(value: 10, type: .real)))
-
-        let children: [ServerDrivenComponent] = [
-            FormInput(name: "username", child:
-                TextField(hint: "Usuario", flex: margin)
-            ),
-            FormInput(name: "password", child:
-                TextField(hint: "Senha", flex: margin)
-            ),
-            FormSubmit(child: Button(text: "Entrar", flex: margin))
-        ]
-
-        let content = Container(
-            children: children,
-            flex: Flex(flexDirection: .column, justifyContent: .center, grow: 1),
-            appearance: Appearance(backgroundColor: "#AA1232")
-        )
-
-        let form = Form(path: "submitForm", method: .post, child: content)
-
-
-//        let beagle = BeagleScreenViewController(viewModel: .init(
-//            screenType: .declarative(
-//                Screen(content: form)
-//            )
-//        ))
-
         let beagle = BeagleScreenViewController(viewModel: .init(
-            screenType: .remote("http://localhost:8080/form-login", fallback: nil)
+            screenType: .remote("/form-login", fallback: nil)
         ))
 
         beagle.modalPresentationStyle = .fullScreen
@@ -56,6 +29,10 @@ class ViewController: UIViewController {
     }
 
     func registerCustomWidgets() {
+        let dependencies = BeagleDependencies()
+        dependencies.baseURL = URL(string: "http://localhost:8080")
+        Beagle.dependencies = dependencies
+
         Beagle.registerCustomComponent(
             "customText",
             componentType: CustomText.self,

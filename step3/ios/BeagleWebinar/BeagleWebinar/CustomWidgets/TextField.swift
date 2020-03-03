@@ -19,7 +19,7 @@ struct TextFieldEntity: WidgetEntity {
     var mask: String?
     var inputType: TextFieldInputType?
 
-
+    var id: String?
     var flex: FlexEntity?
     var appearance: AppearanceEntity?
     var accessibility: AccessibilityEntity?
@@ -55,9 +55,10 @@ struct TextField: Widget {
     var appearance: Appearance?
     var flex: Flex?
     var accessibility: Accessibility?
+    var id: String?
 
     func toView(context: BeagleContext, dependencies: RenderableDependencies) -> UIView {
-        let textField = TextFieldView(widget: self)
+        let textField = TextFieldView(widget: self, context: context)
         textField.borderStyle = .roundedRect
 
         textField.applyAppearance(appearance)
@@ -67,11 +68,14 @@ struct TextField: Widget {
     }
 }
 
-class TextFieldView: UITextField, UITextFieldDelegate, InputValue, WidgetStateObservable {
+class TextFieldView: UITextField, UITextFieldDelegate, InputValue, WidgetStateObservable, ValidationErrorListener {
 
     private(set) var observable = Observable<WidgetState>(value: WidgetState(value: text))
 
-    init(widget: TextField) {
+    private weak var context: BeagleContext?
+
+    init(widget: TextField, context: BeagleContext) {
+        self.context = context
         super.init(frame: .zero)
 
         placeholder = widget.hint
@@ -91,11 +95,6 @@ class TextFieldView: UITextField, UITextFieldDelegate, InputValue, WidgetStateOb
 //    override func sizeThatFits(_ size: CGSize) -> CGSize {
 //        return size
 //    }
-
-    @available(*, unavailable)
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
 
     func getValue() -> Any {
         return text ?? ""
@@ -119,5 +118,22 @@ class TextFieldView: UITextField, UITextFieldDelegate, InputValue, WidgetStateOb
         case .TEXT:
             return .username
         }
+    }
+
+    func onValidationError(message: String?) {
+        guard let context = context else { return }
+
+        let alert = ShowNativeDialog(
+            title: "Error",
+            message: message ?? "Error",
+            buttonText: "OK"
+        )
+
+        Beagle.dependencies.actionExecutor.doAction(alert, sender: self, context: context)
+    }
+
+    @available(*, unavailable)
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 }

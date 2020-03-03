@@ -40,10 +40,17 @@ class BeagleService {
             )
         )
 
-        else -> Navigate(type = NavigationType.SWAP_VIEW, path = "/welcome/${loginForm.login}")
+        else -> Navigate(
+            type = NavigationType.ADD_VIEW,
+            path = "/welcome/${loginForm.login}",
+            shouldPrefetch = true
+        )
     }
 
-    fun createWelcome(user: String) = centered(Text("Bem-vindo $user!", alignment = TextAlignment.CENTER))
+    fun createWelcome(user: String) = Screen(
+        navigationBar = NavigationBar(title = "Bem-vindo"),
+        content = centered(Text("Bem-vindo $user!", alignment = TextAlignment.CENTER))
+    )
 
     private fun centered(widget: Widget) = widget
         .applyFlex(
