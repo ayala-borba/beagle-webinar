@@ -1,0 +1,6 @@
+framework module Pods_BeagleWebinarTests {
+  umbrella header "Pods-BeagleWebinarTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

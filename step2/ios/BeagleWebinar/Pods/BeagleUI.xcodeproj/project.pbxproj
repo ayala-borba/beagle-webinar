@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F9CF879E24027ECF8AB0FA46F0CEFE /* ListViewEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E5C5461E132E7C7A3DEB40202D73ED /* ListViewEntity.swift */; };
+		05FEDFABEC418C7FFE641CA1218D5936 /* UIModelConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8652286B103919DD97BD2DAE5C299D /* UIModelConvertible.swift */; };
+		069F70FBB0B5E50192F08F8BE70F16C9 /* FormValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8206DD8E32E9DA4111C4AE7558501F /* FormValidation.swift */; };
+		0877A01ADA37CD9A0E4C78B3DA0378B5 /* ScrollViewEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176DB55620C443E9677DE131559F0FF /* ScrollViewEntity.swift */; };
+		0A05C0A15D806B0819E0CD1928AC7EAE /* NetworkClientDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D23B3189677634D4A4E737FA58E87C /* NetworkClientDefault.swift */; };
+		0FF6B40831BEDD6B49C384C80FFCD288 /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9EDE4327682FBAA774F38DE606869 /* CollectionExtension.swift */; };
+		10B3AA093FAA2B8284F398B45434C96D /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33399F4F71017C675F7782E0D2220364 /* CacheManager.swift */; };
+		13EE1EAC2DB7E695D97993ACFCDED8AA /* UIView+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B697A829F648C3773A48B20F79EC72E /* UIView+Loading.swift */; };
+		14EC944A6B01BCE89C992EFC0648FC48 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6FECC360FA78953275D42CB37C57EE /* Action.swift */; };
+		18DADE5960056BB681B454B1B4CC3423 /* Touchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02950E9255563D3D416525930B86F5CB /* Touchable.swift */; };
+		1939F4DACC5C97C6AC048701B74E0810 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFFE84896E2B72C5B2EC740B86306F /* UIView+AutoLayout.swift */; };
+		199057BC82129875E2FEC786DA33B6E2 /* NavigateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D3843537AEC0A8BE694E46DEE9DD9 /* NavigateEntity.swift */; };
+		1B2353898312CD439B7571300C237AA1 /* TabViewEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B87F5F4E24B694DB4F4FBF69A09BCA8 /* TabViewEntity.swift */; };
+		1D74ABEC9CD86687E463E1BB08FF7FEA /* FunctiontalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA397D819D56DB5C27BED22728EB846C /* FunctiontalUtils.swift */; };
+		2698B109588547907DBD288BC7CC704C /* ActionGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316B8D0608D64EB71ADC4100E22A9765 /* ActionGestureRecognizer.swift */; };
+		28893CCCADE5C296C736E67DF3719DE7 /* ScreenComponentEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91DFD3488CB233F51BF28110138F730 /* ScreenComponentEntity.swift */; };
+		2933339BD2258EB5B07DF391B740B400 /* YogaTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DA0E928718E381F7953BF153B46316 /* YogaTranslator.swift */; };
+		29BB2364D8F36E15FE72A85C8B8F7573 /* FormValidationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD845003A076FD682EAD1A1212E36C9 /* FormValidationEntity.swift */; };
+		2EDE2E4C71971804F8986D9F49689B57 /* TouchableEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE100542E1E80859299EEA2EA0BC5F /* TouchableEntity.swift */; };
+		30B332CAE824EB5B30BD669FF5D07BE9 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB567B05D58DFA43EB906F60E1BA18 /* UIView+Appearance.swift */; };
+		348C12404B6D7B6E5270FD42D9245DED /* CacheLRU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACC827882856A22EC034D858062F93 /* CacheLRU.swift */; };
+		3696A660A549B4DA345C3AE0B2202E48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC7DE9B4B9FBEE16888A5E4EE801BEB /* Foundation.framework */; };
+		36AA972637BBD23AF3EB0C7EE33F3978 /* ActionExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6DED70AC1738B206AD2832E28BF98 /* ActionExecutor.swift */; };
+		36CAF8F08C04A61F9115AE442A6004EE /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64034B001EACEF3E7C589E7BEA24023C /* Appearance.swift */; };
+		36E6E619F77CB55C7497355D66285DD9 /* ShowNativeDialogEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95360420E20EB73D3A4EC8B1F7F2753F /* ShowNativeDialogEntity.swift */; };
+		3723B3D8F09D9C336369B5921DEA8068 /* AnyDecodableContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604C560E9A25E733ABA9DA8BD0CA3C4B /* AnyDecodableContainer.swift */; };
+		3CB4D0F9F3692C4D10EB000DA393F036 /* HTTPRequestCanceling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A2579F9CE1E6E94AA2F2E92BAAFB5 /* HTTPRequestCanceling.swift */; };
+		3D4A0F67E457EE6772E5C7C506D987EC /* Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A78C83A2AB9C7B305A306C30E46506 /* Spacer.swift */; };
+		3F8AE14874B2D6A201A56DB102BBFDBF /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBC21C4A551998B47A7B575105A65A /* NSObjectExtension.swift */; };
+		453CA89805DEE93FE209C4C4ADB788E8 /* ComponentDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A978D2F2956F8B60C4EB822988535 /* ComponentDecoder.swift */; };
+		4590A4D0E72FAC1DAD98807751245C23 /* ServerDrivenComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532A66DCB7F9B12DEF6F104DF8F56032 /* ServerDrivenComponent.swift */; };
+		4834C7EDB3E865DBFAE29753DCFE17AF /* FlexViewConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE450AE3DD65EF889F200B3001B66784 /* FlexViewConfigurator.swift */; };
+		4864ADB3A4B2852EF81EF396F9FE80D2 /* ContainerIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9D4BF26AA06AA5AA3A83CED8F058E /* ContainerIndicatorView.swift */; };
+		491779885EA95B1E7904CA918E8B79A1 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB3A0F5184EAA2910853346468AE577 /* Network.swift */; };
+		4932133BA9225CDBD6B1473B83F77AEE /* BeagleContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5EC142215EB09B1324ABE4691BE773 /* BeagleContext.swift */; };
+		4A4ECDF31F9F698310580216E81ACBF5 /* Navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DC2F83492E1C705306E0CFA042316E /* Navigate.swift */; };
+		4C8A5BC6C2D2BFCB2F3B2390C6AD71DC /* FormInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F9EFD01A0261DF100ECD724F822C1 /* FormInput.swift */; };
+		525094D845A8A09406C838B2E79B3DCE /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BFBAEDFCD341E603905CB38081D6ED /* DoublyLinkedList.swift */; };
+		53C6680FA64C9ED3289F1C0B64EB3284 /* AppearanceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2029EFF66A50884863314B85E74CB4D /* AppearanceEntity.swift */; };
+		54A3D61C63F04E892B23554220198360 /* UnitValueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320CC1041D635B06D6ACEB3390F7E732 /* UnitValueExtension.swift */; };
+		55E6B6284D493F2DE39D66F4992F2BF5 /* ValidatorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFEA291B74D2D9B72AEE6A45181C13E /* ValidatorProvider.swift */; };
+		57623FB097B818E650D2D2A7F7036EDF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32C66F690238AAB20E58B7BC7282507 /* ListView.swift */; };
+		57C9250EEB06EB135B258F748CDF12FB /* UrlRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50B5EA4BBC84D0BF1768B8486425CA9 /* UrlRequestBuilder.swift */; };
+		588FE06AA7014A53E33495B0E2FBC6E1 /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6446356EC9315B04FAE56327E6968067 /* PageIndicator.swift */; };
+		5A88ECF3D2537B4139F76283EEEF223D /* MemoryCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD8F19FAFA36F9604F4CE7FE59FC9C /* MemoryCacheService.swift */; };
+		5E06BC9A42AE6682217B216363482EBE /* ListViewUIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78EAEAE9743BA46ABCCA4B527C5C079 /* ListViewUIComponent.swift */; };
+		6359B63D4A47DFA1F65F1AC57AC04D89 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F2D3394A21527E402A79759D271A13 /* TabView.swift */; };
+		63D081D017E24959A5D76C27D0FA64D1 /* ComponentEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9EFC83C4FB7BE16550382CBC069701 /* ComponentEntity.swift */; };
+		67F4B18581DB4CFF0126284723F5E67A /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735A63377C418E8E7B76789B549F118 /* Container.swift */; };
+		6BB6702E474B8CB76BA31BF38670D6B1 /* ButtonEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6386C0277348082953C7F28674541E6 /* ButtonEntity.swift */; };
+		6E317B970F2FD7DF4F5CDD61A2D3E20F /* BeaglePrefetchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36838D6C89C44C5BE4650F506C3ED9 /* BeaglePrefetchHelper.swift */; };
+		6EDFD139D78294B0A577F26679444E3E /* BeagleDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAEFC62DE96403045718BC08C12531B /* BeagleDependencies.swift */; };
+		707B659759FB99F6DE9C0D4EE18DB10A /* ComponentConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A50538677809FAFC9ED6BD7E6FF99 /* ComponentConvertible.swift */; };
+		71FCE1294D0EC63E5D1952CB453BBA34 /* TextEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112271E71CE9B1AAD0D0DE62EF418180 /* TextEntity.swift */; };
+		7451CCED01E2381FD82FD01125ADF1FA /* ShowNativeDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720558BC24DB7EF560971D2A130AB5E6 /* ShowNativeDialog.swift */; };
+		747FC6F3C88920B38FD28B298D56777A /* BeagleDeepLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A132DA8DF505E588E9D0102F1A44CB /* BeagleDeepLinkHandler.swift */; };
+		862DACA31ADAA074A827B0E063FA536B /* FormEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438607A84CECD4A98C6400F3AAE316BD /* FormEntity.swift */; };
+		8837B794BB92719D2C68AD92BE42A818 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F8A8F9C16965608DB2F2BE7315D982 /* Screen.swift */; };
+		883EE26D4727486A11C00DEBD94A027D /* OnStateUpdatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532A43A05FEF8DBE49D3B1516FE53A8D /* OnStateUpdatable.swift */; };
+		89168B88DAFA5A44269E3581692E4C86 /* ImageContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05517B14C4927904C241E354DC2ABA72 /* ImageContentMode.swift */; };
+		892B6D1A429D35027D56156ADAC7138F /* PageViewUIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A642A63CE322227B94A009E5FEA6C4 /* PageViewUIComponent.swift */; };
+		8C25F7E0813D1EEC76E25D498090143C /* NSErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D084D771007BCB04D32161F426F447A /* NSErrorExtension.swift */; };
+		8CD242C2178920EF3C81C99149393CD4 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077EFD8CC6A81611CDF3735F0439141 /* PageView.swift */; };
+		8D1D0D5CA9FE9C6D8F6B554560E5A3DD /* TabBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18AD9C32C64F090C60EBA1BB137FCDF /* TabBarCollectionViewCell.swift */; };
+		92095697FEB3A98E740F6A5F91FF9356 /* ContainerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34731F5B0841191E0E835A6F023867A /* ContainerEntity.swift */; };
+		94321AB44E26DDF944E6AC22F590F0DF /* AccessibilityEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF9B3914D7C6258568E642149A4E1C0 /* AccessibilityEntity.swift */; };
+		9586EEBF670360633E44525DAF7E837D /* Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22329BFFEF3F6F75ECC77C584D294BBF /* Accessibility.swift */; };
+		9D1FD5FB943A976B4E67E19A1FFE2780 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4251963BA765602CCD4765BE673630F3 /* Result.swift */; };
+		9E8A34DC87EFC20B9B316891D747E410 /* BeagleScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14697CFCE5F67F8B9052823A8AE9E5A8 /* BeagleScreenViewController.swift */; };
+		A067F1B3BD79CBF494D03F0D85C14268 /* BeagleUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70570D9AF3D02722404194F696BD62DF /* BeagleUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9220995C42470CDF1109408049A661E /* FatalErrorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC2CCC929F00BD888E4313BFB5BA644 /* FatalErrorUtil.swift */; };
+		A96EA8D28C7816202AF60B5111D3C948 /* TabViewUIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA921FDD4C20031389DA8FAB8BCB611A /* TabViewUIComponent.swift */; };
+		AA80233759CD387C76B5D2916C185730 /* BeagleScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FF61F1440C89ACCD3A40D5D8FF185 /* BeagleScreenViewModel.swift */; };
+		AC2164C4E1373896C2B535C32C4B5192 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013F32457900B64F7A5A131788F0C7D4 /* NetworkClient.swift */; };
+		B135575AF6384ECAB310767F728FA2B9 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1718A2CC1FFA4493D922CC26C4426FB /* KeyboardManager.swift */; };
+		B2B26779FB1899D8EB08E2DE8C3449D8 /* LazyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127172D6C9DEC8755D2F8F2C97B125F /* LazyComponent.swift */; };
+		B31BD3726F124910E5587E3A57AD1E5E /* FormInputEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8057BC3E88A09C5029DF477262D451F /* FormInputEntity.swift */; };
+		B3814A813CBFCFC7436944C36B02CAA9 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D8B154775253DB06E7BBE9035D3B1 /* Button.swift */; };
+		B4655CA00C5F2C74FEEC267F7CE2F67A /* CustomActionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D751A053201C648FD6A04FCDB3D1D6 /* CustomActionEntity.swift */; };
+		B719E424E6932F0891847F404E499DCA /* ImageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38D4B03A5B63AD8B9FF221754BDEC3E /* ImageEntity.swift */; };
+		BC9B6EC9A3F152DD1E95B6B083BF88B2 /* InputValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06976883F6E87B8E52AB96E9E8C481F /* InputValue.swift */; };
+		BD938C152468E2678ED61922194F6E24 /* FlexEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2604292F28D7CCB9BE2F42E7905F05DB /* FlexEntity.swift */; };
+		BEB80F2FC88D7B7FE79CA98C1BF32207 /* PageViewEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF28169BCA418CC246821991837EC70 /* PageViewEntity.swift */; };
+		BFF53E5BD72796174AAE1C5D3FFC81B6 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890379B6D3366B7B453B66F82DB8FE12 /* Form.swift */; };
+		C28C36D8324E64897814D47634A7869A /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9014F36C0141D7CE3A514A73BDBB8626 /* ScrollView.swift */; };
+		C5633C27181CC2A2F2B67709B1212E3E /* BeagleSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2789D74C0E0555CC55386ADA14750 /* BeagleSetup.swift */; };
+		CA0FB8D2A506B1BC636EF15628726EA3 /* NetworkImageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50020651183722C86AAED9D72F6E7083 /* NetworkImageEntity.swift */; };
+		CA30653B5EC88F6F91A7B9FBBC163B7C /* SubmitFormGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2536A218A482C1DA3380C495CA778 /* SubmitFormGestureRecognizer.swift */; };
+		CBE3E6B907971691978FAC4671FEB667 /* FormSubmitEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CA3926B7B9001628722246F2864CD /* FormSubmitEntity.swift */; };
+		CE675907DEA7C06F16FA44D43D86E394 /* BeagleNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FFDB8ED1AE3AE7ED29B5F642136960 /* BeagleNavigator.swift */; };
+		CE953779EACA3F20C5383895425FAA47 /* CustomAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153DF6D2C45525283ADBEE1E25E3CB2 /* CustomAction.swift */; };
+		D0B06242A7CC77A28A35266FEE5C7E44 /* YogaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA2CCA7DCE49375F0670D425B99C70E /* YogaKit.framework */; };
+		D0E9D869814AA149E7410275221F6B51 /* UnitValueEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1D39F5E53B9A8E5F01E9B90403ADA9 /* UnitValueEntity.swift */; };
+		D45B81567E9354A7DA2F14A6207B6596 /* SpacerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F3D3D300523963D834E3516100AC3 /* SpacerEntity.swift */; };
+		D62906320D6F2FA4DC92D85A3AF4C73E /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3970DF5A0D9FF711343D566A766D6821 /* NetworkImage.swift */; };
+		D8EE256E4416B74DB7354013EA6546D8 /* ScreenComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3365AC4A49559E5D95DC285248C40383 /* ScreenComponent.swift */; };
+		E0D4E9A0BA4C4A94D5AEFFD2864745B5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB814BDDC25A9EE4334A76B74F0359 /* LoadingView.swift */; };
+		E126D2935F639E0E2AF9F0C3C45C3FFB /* BeagleUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 075757E4B235953BA15700AA918FDA18 /* BeagleUI-dummy.m */; };
+		E17D2E3BA8F6E7D6165A191AB60255F7 /* ImageEntityContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7593ECB92FA57F009AA1CB556A60FC17 /* ImageEntityContentMode.swift */; };
+		E26AF230057CA8135EE6D43FAFEB32B4 /* UIView+Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BCF36BA41F242C0AA73F2B7435E02F /* UIView+Id.swift */; };
+		E2707019BDC0106CA242A1483FBA8406 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819B76DE3C0B184451775E08B5EF91E /* Validator.swift */; };
+		E27E8FD4C82D26596E6CE70861249EB4 /* UIView+Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2551757644D6CEC3E64D26F6B2FAEF03 /* UIView+Subviews.swift */; };
+		E3F8D986127043522AA7B4133F9F6D1F /* DefaultPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D499FEC66A2A875542B581F4CE7FD /* DefaultPageIndicator.swift */; };
+		E508E643D7BF8B15EDAE341E73B61F91 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48357D5A74B5CEB53EA11C6857F2FD /* Request.swift */; };
+		E7D1E2AC13BE85CF4F6C7F391553544D /* UnitValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BBFF01ECF93FFB6F0D6D222EC24925 /* UnitValue.swift */; };
+		E883B0024F68B867017888D452B2973D /* LazyComponentEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D402D06BEEE8E76CFE94031E5F4FE081 /* LazyComponentEntity.swift */; };
+		EB62885D9A080FAF2773B26543DD0C2C /* FormSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6769ED21EF5F0CF5429DA3EC1E1D714 /* FormSubmit.swift */; };
+		EEDC6C533478FA02B6133B27357DC5EE /* ListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130652F33EDB3697A76EDCC7E219646B /* ListItemTableViewCell.swift */; };
+		F02726121A1CF8BA47FBAE7BE8B4C21B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C82ED423F4AF12480A12282AE5F2CAB /* Theme.swift */; };
+		F2F5582382C977CF79413E6828DCEEBD /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEFFCA954B7BD7B8F0094E78448EF69 /* Widget.swift */; };
+		F323CD6B05D3704BCFA0BEFD4DEDA0E3 /* ActionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A2F379A850A6EA6D849BCBE5254EB /* ActionEntity.swift */; };
+		F5A161C45EFC63FE7B34CADF23B01ECA /* Flex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF89D8A0B9678AC6FC884511E60D9B /* Flex.swift */; };
+		F61B63766CE7CE511250C8A3FD322F20 /* ActionConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A01EE05E04323FFDFFE02C38443B87 /* ActionConvertible.swift */; };
+		F62C1B14E8A3172F7F4B1A59448984B5 /* SafeAreaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299552D9FC6EC63E4E95518135B4BFD4 /* SafeAreaManager.swift */; };
+		F6FBD20ECDEDE68A33C7D5ABF9CD70AF /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE2CBDC2F6BB47198144E7E6B6214D /* Observable.swift */; };
+		F83F18B32B4018DAF2C3E8CC7942CD6C /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = B760F86EEEDDFD4A9745026C30DAB8E4 /* Text.swift */; };
+		F84224C91A1F39AAB1A6D15BBF66E8A0 /* CustomActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE150ACE2735CC73533310E3D86F4A9 /* CustomActionHandler.swift */; };
+		FAF447B1DDAC124C85FB22D1A2091558 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF512092FDBB3E97C580EE7A2769D40E /* Image.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6580440831E92BBA0AFB94C3CCCF4E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0248E617572A57ABDB668BBA9023E32B /* YogaKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0329F50521131A4BC4034736FA91D109;
+			remoteInfo = YogaKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013F32457900B64F7A5A131788F0C7D4 /* NetworkClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkClient.swift; path = Sources/BeagleUI/Sources/Networking/NetworkClient.swift; sourceTree = "<group>"; };
+		0248E617572A57ABDB668BBA9023E32B /* YogaKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YogaKit; path = YogaKit.xcodeproj; sourceTree = "<group>"; };
+		02950E9255563D3D416525930B86F5CB /* Touchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Touchable.swift; path = Sources/BeagleUI/Sources/Action/Touchable.swift; sourceTree = "<group>"; };
+		046FF61F1440C89ACCD3A40D5D8FF185 /* BeagleScreenViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeagleScreenViewModel.swift; path = Sources/BeagleUI/Sources/Renderer/BeagleScreenViewModel.swift; sourceTree = "<group>"; };
+		05517B14C4927904C241E354DC2ABA72 /* ImageContentMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageContentMode.swift; path = Sources/BeagleUI/Sources/Components/Image/ImageContentMode.swift; sourceTree = "<group>"; };
+		075757E4B235953BA15700AA918FDA18 /* BeagleUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeagleUI-dummy.m"; sourceTree = "<group>"; };
+		0A36838D6C89C44C5BE4650F506C3ED9 /* BeaglePrefetchHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeaglePrefetchHelper.swift; path = Sources/BeagleUI/Sources/Caching/Prefetch/BeaglePrefetchHelper.swift; sourceTree = "<group>"; };
+		0DB3A0F5184EAA2910853346468AE577 /* Network.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Network.swift; path = Sources/BeagleUI/Sources/Networking/Network.swift; sourceTree = "<group>"; };
+		1077EFD8CC6A81611CDF3735F0439141 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = Sources/BeagleUI/Sources/Components/Page/PageView.swift; sourceTree = "<group>"; };
+		112271E71CE9B1AAD0D0DE62EF418180 /* TextEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextEntity.swift; path = Sources/BeagleUI/Sources/Components/Text/TextEntity.swift; sourceTree = "<group>"; };
+		130652F33EDB3697A76EDCC7E219646B /* ListItemTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListItemTableViewCell.swift; path = Sources/BeagleUI/Sources/Components/ListView/ListItemTableViewCell.swift; sourceTree = "<group>"; };
+		14697CFCE5F67F8B9052823A8AE9E5A8 /* BeagleScreenViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeagleScreenViewController.swift; path = Sources/BeagleUI/Sources/Renderer/BeagleScreenViewController.swift; sourceTree = "<group>"; };
+		19972FF92CA2C7C1F2AC14619A0D98D0 /* BeagleUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BeagleUI-Info.plist"; sourceTree = "<group>"; };
+		1BCD8F19FAFA36F9604F4CE7FE59FC9C /* MemoryCacheService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryCacheService.swift; path = Sources/BeagleUI/Sources/Networking/Default/MemoryCacheService.swift; sourceTree = "<group>"; };
+		1DA2CCA7DCE49375F0670D425B99C70E /* YogaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YogaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22329BFFEF3F6F75ECC77C584D294BBF /* Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Accessibility.swift; path = Sources/BeagleUI/Sources/Accessibility/Accessibility.swift; sourceTree = "<group>"; };
+		2551757644D6CEC3E64D26F6B2FAEF03 /* UIView+Subviews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Subviews.swift"; path = "Sources/BeagleUI/Sources/Common/Extensions/UIView+Subviews.swift"; sourceTree = "<group>"; };
+		2604292F28D7CCB9BE2F42E7905F05DB /* FlexEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexEntity.swift; path = Sources/BeagleUI/Sources/Components/Layout/Flex/FlexEntity.swift; sourceTree = "<group>"; };
+		281F9EFD01A0261DF100ECD724F822C1 /* FormInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInput.swift; path = Sources/BeagleUI/Sources/Components/Form/Input/FormInput.swift; sourceTree = "<group>"; };
+		28CF89D8A0B9678AC6FC884511E60D9B /* Flex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flex.swift; path = Sources/BeagleUI/Sources/Components/Layout/Flex/Flex.swift; sourceTree = "<group>"; };
+		299552D9FC6EC63E4E95518135B4BFD4 /* SafeAreaManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafeAreaManager.swift; path = Sources/BeagleUI/Sources/Renderer/SafeAreaManager.swift; sourceTree = "<group>"; };
+		2C82ED423F4AF12480A12282AE5F2CAB /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Sources/BeagleUI/Sources/Theme/Theme.swift; sourceTree = "<group>"; };
+		2E48357D5A74B5CEB53EA11C6857F2FD /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Sources/BeagleUI/Sources/Networking/Request.swift; sourceTree = "<group>"; };
+		2EC2CCC929F00BD888E4313BFB5BA644 /* FatalErrorUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FatalErrorUtil.swift; path = Sources/BeagleUI/Sources/Common/Util/FatalErrorUtil.swift; sourceTree = "<group>"; };
+		316B8D0608D64EB71ADC4100E22A9765 /* ActionGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionGestureRecognizer.swift; path = Sources/BeagleUI/Sources/Action/ActionGestureRecognizer.swift; sourceTree = "<group>"; };
+		320CC1041D635B06D6ACEB3390F7E732 /* UnitValueExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitValueExtension.swift; path = Sources/BeagleUI/Sources/Common/Extensions/UnitValueExtension.swift; sourceTree = "<group>"; };
+		33399F4F71017C675F7782E0D2220364 /* CacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheManager.swift; path = Sources/BeagleUI/Sources/Caching/CacheManager/CacheManager.swift; sourceTree = "<group>"; };
+		3365AC4A49559E5D95DC285248C40383 /* ScreenComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenComponent.swift; path = Sources/BeagleUI/Sources/Components/Layout/Screen/ScreenComponent.swift; sourceTree = "<group>"; };
+		33DA0E928718E381F7953BF153B46316 /* YogaTranslator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YogaTranslator.swift; path = Sources/BeagleUI/Sources/Components/Layout/Flex/YogaTranslator.swift; sourceTree = "<group>"; };
+		34A132DA8DF505E588E9D0102F1A44CB /* BeagleDeepLinkHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeagleDeepLinkHandler.swift; path = Sources/BeagleUI/Sources/Navigation/BeagleDeepLinkHandler.swift; sourceTree = "<group>"; };
+		3970DF5A0D9FF711343D566A766D6821 /* NetworkImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkImage.swift; path = Sources/BeagleUI/Sources/Components/Image/Network/NetworkImage.swift; sourceTree = "<group>"; };
+		3B2CA3926B7B9001628722246F2864CD /* FormSubmitEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSubmitEntity.swift; path = Sources/BeagleUI/Sources/Components/Form/Submit/FormSubmitEntity.swift; sourceTree = "<group>"; };
+		3CAEFC62DE96403045718BC08C12531B /* BeagleDependencies.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeagleDependencies.swift; path = Sources/BeagleUI/Sources/Setup/BeagleDependencies.swift; sourceTree = "<group>"; };
+		3EB2789D74C0E0555CC55386ADA14750 /* BeagleSetup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeagleSetup.swift; path = Sources/BeagleUI/Sources/Setup/BeagleSetup.swift; sourceTree = "<group>"; };
+		4251963BA765602CCD4765BE673630F3 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/BeagleUI/Sources/Common/Util/Result.swift; sourceTree = "<group>"; };
+		438607A84CECD4A98C6400F3AAE316BD /* FormEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormEntity.swift; path = Sources/BeagleUI/Sources/Components/Form/FormEntity.swift; sourceTree = "<group>"; };
+		43A9A7D56C88BFD80A420443E1FB92DE /* BeagleUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeagleUI.xcconfig; sourceTree = "<group>"; };
+		4A4A9AEB4F4FC411F38727A6ED19EDBD /* BeagleUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeagleUI-prefix.pch"; sourceTree = "<group>"; };
+		50020651183722C86AAED9D72F6E7083 /* NetworkImageEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkImageEntity.swift; path = Sources/BeagleUI/Sources/Components/Image/Network/NetworkImageEntity.swift; sourceTree = "<group>"; };
+		532A43A05FEF8DBE49D3B1516FE53A8D /* OnStateUpdatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnStateUpdatable.swift; path = Sources/BeagleUI/Sources/Components/Lazy/OnStateUpdatable.swift; sourceTree = "<group>"; };
+		532A66DCB7F9B12DEF6F104DF8F56032 /* ServerDrivenComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerDrivenComponent.swift; path = Sources/BeagleUI/Sources/Components/ServerDrivenComponent.swift; sourceTree = "<group>"; };
+		59B6DED70AC1738B206AD2832E28BF98 /* ActionExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionExecutor.swift; path = Sources/BeagleUI/Sources/Action/ActionExecutor.swift; sourceTree = "<group>"; };
+		5B87F5F4E24B694DB4F4FBF69A09BCA8 /* TabViewEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabViewEntity.swift; path = Sources/BeagleUI/Sources/Components/TabBar/TabViewEntity.swift; sourceTree = "<group>"; };
+		604C560E9A25E733ABA9DA8BD0CA3C4B /* AnyDecodableContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyDecodableContainer.swift; path = Sources/BeagleUI/Sources/Decoding/AnyDecodableContainer.swift; sourceTree = "<group>"; };
+		6153DF6D2C45525283ADBEE1E25E3CB2 /* CustomAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomAction.swift; path = Sources/BeagleUI/Sources/Action/CustomAction.swift; sourceTree = "<group>"; };
+		64034B001EACEF3E7C589E7BEA24023C /* Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Appearance.swift; path = Sources/BeagleUI/Sources/Components/Appearance/Appearance.swift; sourceTree = "<group>"; };
+		642A978D2F2956F8B60C4EB822988535 /* ComponentDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentDecoder.swift; path = Sources/BeagleUI/Sources/Decoding/ComponentDecoder.swift; sourceTree = "<group>"; };
+		6446356EC9315B04FAE56327E6968067 /* PageIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageIndicator.swift; path = Sources/BeagleUI/Sources/Components/Page/Indicator/PageIndicator.swift; sourceTree = "<group>"; };
+		67F2D3394A21527E402A79759D271A13 /* TabView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabView.swift; path = Sources/BeagleUI/Sources/Components/TabBar/TabView.swift; sourceTree = "<group>"; };
+		68ACC827882856A22EC034D858062F93 /* CacheLRU.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheLRU.swift; path = Sources/BeagleUI/Sources/Caching/LRU/CacheLRU.swift; sourceTree = "<group>"; };
+		6D084D771007BCB04D32161F426F447A /* NSErrorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSErrorExtension.swift; path = Sources/BeagleUI/Sources/Common/Extensions/NSErrorExtension.swift; sourceTree = "<group>"; };
+		6D8206DD8E32E9DA4111C4AE7558501F /* FormValidation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormValidation.swift; path = Sources/BeagleUI/Sources/Components/Form/FormValidation.swift; sourceTree = "<group>"; };
+		70570D9AF3D02722404194F696BD62DF /* BeagleUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeagleUI-umbrella.h"; sourceTree = "<group>"; };
+		720558BC24DB7EF560971D2A130AB5E6 /* ShowNativeDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShowNativeDialog.swift; path = Sources/BeagleUI/Sources/Action/ShowNativeDialog.swift; sourceTree = "<group>"; };
+		7593ECB92FA57F009AA1CB556A60FC17 /* ImageEntityContentMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageEntityContentMode.swift; path = Sources/BeagleUI/Sources/Components/Image/ImageEntityContentMode.swift; sourceTree = "<group>"; };
+		76E5C5461E132E7C7A3DEB40202D73ED /* ListViewEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListViewEntity.swift; path = Sources/BeagleUI/Sources/Components/ListView/ListViewEntity.swift; sourceTree = "<group>"; };
+		86D23B3189677634D4A4E737FA58E87C /* NetworkClientDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkClientDefault.swift; path = Sources/BeagleUI/Sources/Networking/Default/NetworkClientDefault.swift; sourceTree = "<group>"; };
+		890379B6D3366B7B453B66F82DB8FE12 /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Sources/BeagleUI/Sources/Components/Form/Form.swift; sourceTree = "<group>"; };
+		8B697A829F648C3773A48B20F79EC72E /* UIView+Loading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Loading.swift"; path = "Sources/BeagleUI/Sources/Common/Extensions/UIView+Loading.swift"; sourceTree = "<group>"; };
+		8B6FECC360FA78953275D42CB37C57EE /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Sources/BeagleUI/Sources/Action/Action.swift; sourceTree = "<group>"; };
+		8E9A50538677809FAFC9ED6BD7E6FF99 /* ComponentConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentConvertible.swift; path = Sources/BeagleUI/Sources/Components/ComponentConvertible.swift; sourceTree = "<group>"; };
+		9014F36C0141D7CE3A514A73BDBB8626 /* ScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollView.swift; path = Sources/BeagleUI/Sources/Components/Layout/Scroll/ScrollView.swift; sourceTree = "<group>"; };
+		95360420E20EB73D3A4EC8B1F7F2753F /* ShowNativeDialogEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShowNativeDialogEntity.swift; path = Sources/BeagleUI/Sources/Action/ShowNativeDialogEntity.swift; sourceTree = "<group>"; };
+		966A2579F9CE1E6E94AA2F2E92BAAFB5 /* HTTPRequestCanceling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPRequestCanceling.swift; path = Sources/BeagleUI/Sources/Common/Protocols/HTTPRequestCanceling.swift; sourceTree = "<group>"; };
+		9735A63377C418E8E7B76789B549F118 /* Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.swift; path = Sources/BeagleUI/Sources/Components/Layout/Flex/Container.swift; sourceTree = "<group>"; };
+		9DF28169BCA418CC246821991837EC70 /* PageViewEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewEntity.swift; path = Sources/BeagleUI/Sources/Components/Page/PageViewEntity.swift; sourceTree = "<group>"; };
+		A04D3843537AEC0A8BE694E46DEE9DD9 /* NavigateEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigateEntity.swift; path = Sources/BeagleUI/Sources/Navigation/NavigateEntity.swift; sourceTree = "<group>"; };
+		A176DB55620C443E9677DE131559F0FF /* ScrollViewEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollViewEntity.swift; path = Sources/BeagleUI/Sources/Components/Layout/Scroll/ScrollViewEntity.swift; sourceTree = "<group>"; };
+		A2A01EE05E04323FFDFFE02C38443B87 /* ActionConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionConvertible.swift; path = Sources/BeagleUI/Sources/Action/ActionConvertible.swift; sourceTree = "<group>"; };
+		A32C66F690238AAB20E58B7BC7282507 /* ListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListView.swift; path = Sources/BeagleUI/Sources/Components/ListView/ListView.swift; sourceTree = "<group>"; };
+		A78EAEAE9743BA46ABCCA4B527C5C079 /* ListViewUIComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListViewUIComponent.swift; path = Sources/BeagleUI/Sources/Components/ListView/ListViewUIComponent.swift; sourceTree = "<group>"; };
+		A91DFD3488CB233F51BF28110138F730 /* ScreenComponentEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenComponentEntity.swift; path = Sources/BeagleUI/Sources/Components/Layout/Screen/ScreenComponentEntity.swift; sourceTree = "<group>"; };
+		ABD845003A076FD682EAD1A1212E36C9 /* FormValidationEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormValidationEntity.swift; path = Sources/BeagleUI/Sources/Components/Form/FormValidationEntity.swift; sourceTree = "<group>"; };
+		AE1D39F5E53B9A8E5F01E9B90403ADA9 /* UnitValueEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitValueEntity.swift; path = Sources/BeagleUI/Sources/Components/Layout/Flex/UnitValueEntity.swift; sourceTree = "<group>"; };
+		AE450AE3DD65EF889F200B3001B66784 /* FlexViewConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexViewConfigurator.swift; path = Sources/BeagleUI/Sources/Components/Layout/Flex/FlexViewConfigurator.swift; sourceTree = "<group>"; };
+		B1FB814BDDC25A9EE4334A76B74F0359 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Sources/BeagleUI/Sources/Common/Loading/LoadingView.swift; sourceTree = "<group>"; };
+		B2029EFF66A50884863314B85E74CB4D /* AppearanceEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppearanceEntity.swift; path = Sources/BeagleUI/Sources/Components/Appearance/AppearanceEntity.swift; sourceTree = "<group>"; };
+		B6769ED21EF5F0CF5429DA3EC1E1D714 /* FormSubmit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSubmit.swift; path = Sources/BeagleUI/Sources/Components/Form/Submit/FormSubmit.swift; sourceTree = "<group>"; };
+		B760F86EEEDDFD4A9745026C30DAB8E4 /* Text.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Text.swift; path = Sources/BeagleUI/Sources/Components/Text/Text.swift; sourceTree = "<group>"; };
+		B7BBFF01ECF93FFB6F0D6D222EC24925 /* UnitValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitValue.swift; path = Sources/BeagleUI/Sources/Components/Layout/Flex/UnitValue.swift; sourceTree = "<group>"; };
+		BAF9B3914D7C6258568E642149A4E1C0 /* AccessibilityEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessibilityEntity.swift; path = Sources/BeagleUI/Sources/Accessibility/AccessibilityEntity.swift; sourceTree = "<group>"; };
+		BFFEA291B74D2D9B72AEE6A45181C13E /* ValidatorProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatorProvider.swift; path = Sources/BeagleUI/Sources/Components/Form/ValidatorProvider.swift; sourceTree = "<group>"; };
+		C06976883F6E87B8E52AB96E9E8C481F /* InputValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputValue.swift; path = Sources/BeagleUI/Sources/Components/Form/Input/InputValue.swift; sourceTree = "<group>"; };
+		C18AD9C32C64F090C60EBA1BB137FCDF /* TabBarCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabBarCollectionViewCell.swift; path = Sources/BeagleUI/Sources/Components/TabBar/TabBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		C4D8F8C309DFEB87A01C209EA6202B05 /* BeagleUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BeagleUI.framework; path = BeagleUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50B5EA4BBC84D0BF1768B8486425CA9 /* UrlRequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UrlRequestBuilder.swift; path = Sources/BeagleUI/Sources/Networking/Default/UrlRequestBuilder.swift; sourceTree = "<group>"; };
+		C5DC2F83492E1C705306E0CFA042316E /* Navigate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Navigate.swift; path = Sources/BeagleUI/Sources/Navigation/Navigate.swift; sourceTree = "<group>"; };
+		C8057BC3E88A09C5029DF477262D451F /* FormInputEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInputEntity.swift; path = Sources/BeagleUI/Sources/Components/Form/Input/FormInputEntity.swift; sourceTree = "<group>"; };
+		CF512092FDBB3E97C580EE7A2769D40E /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/BeagleUI/Sources/Components/Image/Image.swift; sourceTree = "<group>"; };
+		CF5EC142215EB09B1324ABE4691BE773 /* BeagleContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeagleContext.swift; path = Sources/BeagleUI/Sources/Context/BeagleContext.swift; sourceTree = "<group>"; };
+		D127172D6C9DEC8755D2F8F2C97B125F /* LazyComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LazyComponent.swift; path = Sources/BeagleUI/Sources/Components/Lazy/LazyComponent.swift; sourceTree = "<group>"; };
+		D34731F5B0841191E0E835A6F023867A /* ContainerEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerEntity.swift; path = Sources/BeagleUI/Sources/Components/Layout/Flex/ContainerEntity.swift; sourceTree = "<group>"; };
+		D3DE2CBDC2F6BB47198144E7E6B6214D /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = Sources/BeagleUI/Sources/Common/Protocols/Observable.swift; sourceTree = "<group>"; };
+		D3E2536A218A482C1DA3380C495CA778 /* SubmitFormGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubmitFormGestureRecognizer.swift; path = Sources/BeagleUI/Sources/Components/Form/Submit/SubmitFormGestureRecognizer.swift; sourceTree = "<group>"; };
+		D402D06BEEE8E76CFE94031E5F4FE081 /* LazyComponentEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LazyComponentEntity.swift; path = Sources/BeagleUI/Sources/Components/Lazy/LazyComponentEntity.swift; sourceTree = "<group>"; };
+		D6386C0277348082953C7F28674541E6 /* ButtonEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonEntity.swift; path = Sources/BeagleUI/Sources/Components/Button/ButtonEntity.swift; sourceTree = "<group>"; };
+		DA397D819D56DB5C27BED22728EB846C /* FunctiontalUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunctiontalUtils.swift; path = Sources/BeagleUI/Sources/Common/Util/FunctiontalUtils.swift; sourceTree = "<group>"; };
+		DAA9D4BF26AA06AA5AA3A83CED8F058E /* ContainerIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerIndicatorView.swift; path = Sources/BeagleUI/Sources/Components/TabBar/ContainerIndicatorView.swift; sourceTree = "<group>"; };
+		DBC7DE9B4B9FBEE16888A5E4EE801BEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBCFFE84896E2B72C5B2EC740B86306F /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+AutoLayout.swift"; path = "Sources/BeagleUI/Sources/Common/Extensions/UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		DE8652286B103919DD97BD2DAE5C299D /* UIModelConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIModelConvertible.swift; path = Sources/BeagleUI/Sources/Decoding/UIModelConvertible.swift; sourceTree = "<group>"; };
+		DFAB567B05D58DFA43EB906F60E1BA18 /* UIView+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Appearance.swift"; path = "Sources/BeagleUI/Sources/Components/Appearance/UIView+Appearance.swift"; sourceTree = "<group>"; };
+		E08A2F379A850A6EA6D849BCBE5254EB /* ActionEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionEntity.swift; path = Sources/BeagleUI/Sources/Action/ActionEntity.swift; sourceTree = "<group>"; };
+		E0BFBAEDFCD341E603905CB38081D6ED /* DoublyLinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublyLinkedList.swift; path = Sources/BeagleUI/Sources/Caching/LRU/DoublyLinkedList.swift; sourceTree = "<group>"; };
+		E1718A2CC1FFA4493D922CC26C4426FB /* KeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardManager.swift; path = Sources/BeagleUI/Sources/Renderer/KeyboardManager.swift; sourceTree = "<group>"; };
+		E1B6B665E57450AF1DAED2B985C6CB2E /* BeagleUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BeagleUI.modulemap; sourceTree = "<group>"; };
+		E4D751A053201C648FD6A04FCDB3D1D6 /* CustomActionEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomActionEntity.swift; path = Sources/BeagleUI/Sources/Action/CustomActionEntity.swift; sourceTree = "<group>"; };
+		E4EE100542E1E80859299EEA2EA0BC5F /* TouchableEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchableEntity.swift; path = Sources/BeagleUI/Sources/Action/TouchableEntity.swift; sourceTree = "<group>"; };
+		E7F8A8F9C16965608DB2F2BE7315D982 /* Screen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Screen.swift; path = Sources/BeagleUI/Sources/Renderer/Screen.swift; sourceTree = "<group>"; };
+		E8A78C83A2AB9C7B305A306C30E46506 /* Spacer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spacer.swift; path = Sources/BeagleUI/Sources/Components/Layout/Spacer/Spacer.swift; sourceTree = "<group>"; };
+		E8CBC21C4A551998B47A7B575105A65A /* NSObjectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSObjectExtension.swift; path = Sources/BeagleUI/Sources/Common/Extensions/NSObjectExtension.swift; sourceTree = "<group>"; };
+		EA5D8B154775253DB06E7BBE9035D3B1 /* Button.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Button.swift; path = Sources/BeagleUI/Sources/Components/Button/Button.swift; sourceTree = "<group>"; };
+		EA921FDD4C20031389DA8FAB8BCB611A /* TabViewUIComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabViewUIComponent.swift; path = Sources/BeagleUI/Sources/Components/TabBar/TabViewUIComponent.swift; sourceTree = "<group>"; };
+		EDEFFCA954B7BD7B8F0094E78448EF69 /* Widget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Widget.swift; path = Sources/BeagleUI/Sources/Components/Widget.swift; sourceTree = "<group>"; };
+		EE6D499FEC66A2A875542B581F4CE7FD /* DefaultPageIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultPageIndicator.swift; path = Sources/BeagleUI/Sources/Components/Page/Indicator/DefaultPageIndicator.swift; sourceTree = "<group>"; };
+		EF2F3D3D300523963D834E3516100AC3 /* SpacerEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpacerEntity.swift; path = Sources/BeagleUI/Sources/Components/Layout/Spacer/SpacerEntity.swift; sourceTree = "<group>"; };
+		EF9EFC83C4FB7BE16550382CBC069701 /* ComponentEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentEntity.swift; path = Sources/BeagleUI/Sources/Components/ComponentEntity.swift; sourceTree = "<group>"; };
+		EFE9EDE4327682FBAA774F38DE606869 /* CollectionExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtension.swift; path = Sources/BeagleUI/Sources/Common/Extensions/CollectionExtension.swift; sourceTree = "<group>"; };
+		F38D4B03A5B63AD8B9FF221754BDEC3E /* ImageEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageEntity.swift; path = Sources/BeagleUI/Sources/Components/Image/ImageEntity.swift; sourceTree = "<group>"; };
+		F3BCF36BA41F242C0AA73F2B7435E02F /* UIView+Id.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Id.swift"; path = "Sources/BeagleUI/Sources/Components/Id/UIView+Id.swift"; sourceTree = "<group>"; };
+		F5FFDB8ED1AE3AE7ED29B5F642136960 /* BeagleNavigator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeagleNavigator.swift; path = Sources/BeagleUI/Sources/Navigation/BeagleNavigator.swift; sourceTree = "<group>"; };
+		F6A642A63CE322227B94A009E5FEA6C4 /* PageViewUIComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewUIComponent.swift; path = Sources/BeagleUI/Sources/Components/Page/PageViewUIComponent.swift; sourceTree = "<group>"; };
+		F819B76DE3C0B184451775E08B5EF91E /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validator.swift; path = Sources/BeagleUI/Sources/Components/Form/Validator.swift; sourceTree = "<group>"; };
+		FBE150ACE2735CC73533310E3D86F4A9 /* CustomActionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomActionHandler.swift; path = Sources/BeagleUI/Sources/Action/CustomActionHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80AE111535EA0701EE5B915F403F8A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3696A660A549B4DA345C3AE0B2202E48 /* Foundation.framework in Frameworks */,
+				D0B06242A7CC77A28A35266FEE5C7E44 /* YogaKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C6BDD2336A5EF956953A81020270D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4D8F8C309DFEB87A01C209EA6202B05 /* BeagleUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D4C8BAB0B787DC86EEDA4533DDF6519 /* BeagleUI */ = {
+			isa = PBXGroup;
+			children = (
+				22329BFFEF3F6F75ECC77C584D294BBF /* Accessibility.swift */,
+				BAF9B3914D7C6258568E642149A4E1C0 /* AccessibilityEntity.swift */,
+				8B6FECC360FA78953275D42CB37C57EE /* Action.swift */,
+				A2A01EE05E04323FFDFFE02C38443B87 /* ActionConvertible.swift */,
+				E08A2F379A850A6EA6D849BCBE5254EB /* ActionEntity.swift */,
+				59B6DED70AC1738B206AD2832E28BF98 /* ActionExecutor.swift */,
+				316B8D0608D64EB71ADC4100E22A9765 /* ActionGestureRecognizer.swift */,
+				604C560E9A25E733ABA9DA8BD0CA3C4B /* AnyDecodableContainer.swift */,
+				64034B001EACEF3E7C589E7BEA24023C /* Appearance.swift */,
+				B2029EFF66A50884863314B85E74CB4D /* AppearanceEntity.swift */,
+				CF5EC142215EB09B1324ABE4691BE773 /* BeagleContext.swift */,
+				34A132DA8DF505E588E9D0102F1A44CB /* BeagleDeepLinkHandler.swift */,
+				3CAEFC62DE96403045718BC08C12531B /* BeagleDependencies.swift */,
+				F5FFDB8ED1AE3AE7ED29B5F642136960 /* BeagleNavigator.swift */,
+				0A36838D6C89C44C5BE4650F506C3ED9 /* BeaglePrefetchHelper.swift */,
+				14697CFCE5F67F8B9052823A8AE9E5A8 /* BeagleScreenViewController.swift */,
+				046FF61F1440C89ACCD3A40D5D8FF185 /* BeagleScreenViewModel.swift */,
+				3EB2789D74C0E0555CC55386ADA14750 /* BeagleSetup.swift */,
+				EA5D8B154775253DB06E7BBE9035D3B1 /* Button.swift */,
+				D6386C0277348082953C7F28674541E6 /* ButtonEntity.swift */,
+				68ACC827882856A22EC034D858062F93 /* CacheLRU.swift */,
+				33399F4F71017C675F7782E0D2220364 /* CacheManager.swift */,
+				EFE9EDE4327682FBAA774F38DE606869 /* CollectionExtension.swift */,
+				8E9A50538677809FAFC9ED6BD7E6FF99 /* ComponentConvertible.swift */,
+				642A978D2F2956F8B60C4EB822988535 /* ComponentDecoder.swift */,
+				EF9EFC83C4FB7BE16550382CBC069701 /* ComponentEntity.swift */,
+				9735A63377C418E8E7B76789B549F118 /* Container.swift */,
+				D34731F5B0841191E0E835A6F023867A /* ContainerEntity.swift */,
+				DAA9D4BF26AA06AA5AA3A83CED8F058E /* ContainerIndicatorView.swift */,
+				6153DF6D2C45525283ADBEE1E25E3CB2 /* CustomAction.swift */,
+				E4D751A053201C648FD6A04FCDB3D1D6 /* CustomActionEntity.swift */,
+				FBE150ACE2735CC73533310E3D86F4A9 /* CustomActionHandler.swift */,
+				EE6D499FEC66A2A875542B581F4CE7FD /* DefaultPageIndicator.swift */,
+				E0BFBAEDFCD341E603905CB38081D6ED /* DoublyLinkedList.swift */,
+				2EC2CCC929F00BD888E4313BFB5BA644 /* FatalErrorUtil.swift */,
+				28CF89D8A0B9678AC6FC884511E60D9B /* Flex.swift */,
+				2604292F28D7CCB9BE2F42E7905F05DB /* FlexEntity.swift */,
+				AE450AE3DD65EF889F200B3001B66784 /* FlexViewConfigurator.swift */,
+				890379B6D3366B7B453B66F82DB8FE12 /* Form.swift */,
+				438607A84CECD4A98C6400F3AAE316BD /* FormEntity.swift */,
+				281F9EFD01A0261DF100ECD724F822C1 /* FormInput.swift */,
+				C8057BC3E88A09C5029DF477262D451F /* FormInputEntity.swift */,
+				B6769ED21EF5F0CF5429DA3EC1E1D714 /* FormSubmit.swift */,
+				3B2CA3926B7B9001628722246F2864CD /* FormSubmitEntity.swift */,
+				6D8206DD8E32E9DA4111C4AE7558501F /* FormValidation.swift */,
+				ABD845003A076FD682EAD1A1212E36C9 /* FormValidationEntity.swift */,
+				DA397D819D56DB5C27BED22728EB846C /* FunctiontalUtils.swift */,
+				966A2579F9CE1E6E94AA2F2E92BAAFB5 /* HTTPRequestCanceling.swift */,
+				CF512092FDBB3E97C580EE7A2769D40E /* Image.swift */,
+				05517B14C4927904C241E354DC2ABA72 /* ImageContentMode.swift */,
+				F38D4B03A5B63AD8B9FF221754BDEC3E /* ImageEntity.swift */,
+				7593ECB92FA57F009AA1CB556A60FC17 /* ImageEntityContentMode.swift */,
+				C06976883F6E87B8E52AB96E9E8C481F /* InputValue.swift */,
+				E1718A2CC1FFA4493D922CC26C4426FB /* KeyboardManager.swift */,
+				D127172D6C9DEC8755D2F8F2C97B125F /* LazyComponent.swift */,
+				D402D06BEEE8E76CFE94031E5F4FE081 /* LazyComponentEntity.swift */,
+				130652F33EDB3697A76EDCC7E219646B /* ListItemTableViewCell.swift */,
+				A32C66F690238AAB20E58B7BC7282507 /* ListView.swift */,
+				76E5C5461E132E7C7A3DEB40202D73ED /* ListViewEntity.swift */,
+				A78EAEAE9743BA46ABCCA4B527C5C079 /* ListViewUIComponent.swift */,
+				B1FB814BDDC25A9EE4334A76B74F0359 /* LoadingView.swift */,
+				1BCD8F19FAFA36F9604F4CE7FE59FC9C /* MemoryCacheService.swift */,
+				C5DC2F83492E1C705306E0CFA042316E /* Navigate.swift */,
+				A04D3843537AEC0A8BE694E46DEE9DD9 /* NavigateEntity.swift */,
+				0DB3A0F5184EAA2910853346468AE577 /* Network.swift */,
+				013F32457900B64F7A5A131788F0C7D4 /* NetworkClient.swift */,
+				86D23B3189677634D4A4E737FA58E87C /* NetworkClientDefault.swift */,
+				3970DF5A0D9FF711343D566A766D6821 /* NetworkImage.swift */,
+				50020651183722C86AAED9D72F6E7083 /* NetworkImageEntity.swift */,
+				6D084D771007BCB04D32161F426F447A /* NSErrorExtension.swift */,
+				E8CBC21C4A551998B47A7B575105A65A /* NSObjectExtension.swift */,
+				D3DE2CBDC2F6BB47198144E7E6B6214D /* Observable.swift */,
+				532A43A05FEF8DBE49D3B1516FE53A8D /* OnStateUpdatable.swift */,
+				6446356EC9315B04FAE56327E6968067 /* PageIndicator.swift */,
+				1077EFD8CC6A81611CDF3735F0439141 /* PageView.swift */,
+				9DF28169BCA418CC246821991837EC70 /* PageViewEntity.swift */,
+				F6A642A63CE322227B94A009E5FEA6C4 /* PageViewUIComponent.swift */,
+				2E48357D5A74B5CEB53EA11C6857F2FD /* Request.swift */,
+				4251963BA765602CCD4765BE673630F3 /* Result.swift */,
+				299552D9FC6EC63E4E95518135B4BFD4 /* SafeAreaManager.swift */,
+				E7F8A8F9C16965608DB2F2BE7315D982 /* Screen.swift */,
+				3365AC4A49559E5D95DC285248C40383 /* ScreenComponent.swift */,
+				A91DFD3488CB233F51BF28110138F730 /* ScreenComponentEntity.swift */,
+				9014F36C0141D7CE3A514A73BDBB8626 /* ScrollView.swift */,
+				A176DB55620C443E9677DE131559F0FF /* ScrollViewEntity.swift */,
+				532A66DCB7F9B12DEF6F104DF8F56032 /* ServerDrivenComponent.swift */,
+				720558BC24DB7EF560971D2A130AB5E6 /* ShowNativeDialog.swift */,
+				95360420E20EB73D3A4EC8B1F7F2753F /* ShowNativeDialogEntity.swift */,
+				E8A78C83A2AB9C7B305A306C30E46506 /* Spacer.swift */,
+				EF2F3D3D300523963D834E3516100AC3 /* SpacerEntity.swift */,
+				D3E2536A218A482C1DA3380C495CA778 /* SubmitFormGestureRecognizer.swift */,
+				C18AD9C32C64F090C60EBA1BB137FCDF /* TabBarCollectionViewCell.swift */,
+				67F2D3394A21527E402A79759D271A13 /* TabView.swift */,
+				5B87F5F4E24B694DB4F4FBF69A09BCA8 /* TabViewEntity.swift */,
+				EA921FDD4C20031389DA8FAB8BCB611A /* TabViewUIComponent.swift */,
+				B760F86EEEDDFD4A9745026C30DAB8E4 /* Text.swift */,
+				112271E71CE9B1AAD0D0DE62EF418180 /* TextEntity.swift */,
+				2C82ED423F4AF12480A12282AE5F2CAB /* Theme.swift */,
+				02950E9255563D3D416525930B86F5CB /* Touchable.swift */,
+				E4EE100542E1E80859299EEA2EA0BC5F /* TouchableEntity.swift */,
+				DE8652286B103919DD97BD2DAE5C299D /* UIModelConvertible.swift */,
+				DFAB567B05D58DFA43EB906F60E1BA18 /* UIView+Appearance.swift */,
+				DBCFFE84896E2B72C5B2EC740B86306F /* UIView+AutoLayout.swift */,
+				F3BCF36BA41F242C0AA73F2B7435E02F /* UIView+Id.swift */,
+				8B697A829F648C3773A48B20F79EC72E /* UIView+Loading.swift */,
+				2551757644D6CEC3E64D26F6B2FAEF03 /* UIView+Subviews.swift */,
+				B7BBFF01ECF93FFB6F0D6D222EC24925 /* UnitValue.swift */,
+				AE1D39F5E53B9A8E5F01E9B90403ADA9 /* UnitValueEntity.swift */,
+				320CC1041D635B06D6ACEB3390F7E732 /* UnitValueExtension.swift */,
+				C50B5EA4BBC84D0BF1768B8486425CA9 /* UrlRequestBuilder.swift */,
+				F819B76DE3C0B184451775E08B5EF91E /* Validator.swift */,
+				BFFEA291B74D2D9B72AEE6A45181C13E /* ValidatorProvider.swift */,
+				EDEFFCA954B7BD7B8F0094E78448EF69 /* Widget.swift */,
+				33DA0E928718E381F7953BF153B46316 /* YogaTranslator.swift */,
+				B96423B2CC4CC9C92FD9A57288F71974 /* Support Files */,
+			);
+			name = BeagleUI;
+			path = BeagleUI;
+			sourceTree = "<group>";
+		};
+		7577B1A7554819BA95F005AE50117840 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DBC7DE9B4B9FBEE16888A5E4EE801BEB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		86F1BFF835057D04657A8F491BF584F7 = {
+			isa = PBXGroup;
+			children = (
+				1D4C8BAB0B787DC86EEDA4533DDF6519 /* BeagleUI */,
+				E4145B983B6BE0BCE5C5F63FF4D13FC9 /* Dependencies */,
+				8CA6D115ADDBF50356BCF8B098B3FE5D /* Frameworks */,
+				0C6BDD2336A5EF956953A81020270D6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CA6D115ADDBF50356BCF8B098B3FE5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DA2CCA7DCE49375F0670D425B99C70E /* YogaKit.framework */,
+				7577B1A7554819BA95F005AE50117840 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B96423B2CC4CC9C92FD9A57288F71974 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1B6B665E57450AF1DAED2B985C6CB2E /* BeagleUI.modulemap */,
+				43A9A7D56C88BFD80A420443E1FB92DE /* BeagleUI.xcconfig */,
+				075757E4B235953BA15700AA918FDA18 /* BeagleUI-dummy.m */,
+				19972FF92CA2C7C1F2AC14619A0D98D0 /* BeagleUI-Info.plist */,
+				4A4A9AEB4F4FC411F38727A6ED19EDBD /* BeagleUI-prefix.pch */,
+				70570D9AF3D02722404194F696BD62DF /* BeagleUI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BeagleUI";
+			sourceTree = "<group>";
+		};
+		E4145B983B6BE0BCE5C5F63FF4D13FC9 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				0248E617572A57ABDB668BBA9023E32B /* YogaKit */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F6AA0AD3164EF057045FE8A366186216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A067F1B3BD79CBF494D03F0D85C14268 /* BeagleUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F029A23CDA5B8568E39DE6F2428CDD2 /* BeagleUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95F65762DBBC02DEF158CC4BE620039 /* Build configuration list for PBXNativeTarget "BeagleUI" */;
+			buildPhases = (
+				F6AA0AD3164EF057045FE8A366186216 /* Headers */,
+				12AFF6B260BF016288936838249200B0 /* Sources */,
+				80AE111535EA0701EE5B915F403F8A71 /* Frameworks */,
+				C3ADCE1A827C9140508DF0B6C2BF6DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD7F98764598D36BA97F4AC3A79A119B /* PBXTargetDependency */,
+			);
+			name = BeagleUI;
+			productName = BeagleUI;
+			productReference = C4D8F8C309DFEB87A01C209EA6202B05 /* BeagleUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7B2B3331E7185FF6748357CE92C80B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 90FDBC4F626EBADAAA0B58AA43F46FA8 /* Build configuration list for PBXProject "BeagleUI" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86F1BFF835057D04657A8F491BF584F7;
+			productRefGroup = 0C6BDD2336A5EF956953A81020270D6C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 0248E617572A57ABDB668BBA9023E32B /* YogaKit */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1F029A23CDA5B8568E39DE6F2428CDD2 /* BeagleUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3ADCE1A827C9140508DF0B6C2BF6DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12AFF6B260BF016288936838249200B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9586EEBF670360633E44525DAF7E837D /* Accessibility.swift in Sources */,
+				94321AB44E26DDF944E6AC22F590F0DF /* AccessibilityEntity.swift in Sources */,
+				14EC944A6B01BCE89C992EFC0648FC48 /* Action.swift in Sources */,
+				F61B63766CE7CE511250C8A3FD322F20 /* ActionConvertible.swift in Sources */,
+				F323CD6B05D3704BCFA0BEFD4DEDA0E3 /* ActionEntity.swift in Sources */,
+				36AA972637BBD23AF3EB0C7EE33F3978 /* ActionExecutor.swift in Sources */,
+				2698B109588547907DBD288BC7CC704C /* ActionGestureRecognizer.swift in Sources */,
+				3723B3D8F09D9C336369B5921DEA8068 /* AnyDecodableContainer.swift in Sources */,
+				36CAF8F08C04A61F9115AE442A6004EE /* Appearance.swift in Sources */,
+				53C6680FA64C9ED3289F1C0B64EB3284 /* AppearanceEntity.swift in Sources */,
+				4932133BA9225CDBD6B1473B83F77AEE /* BeagleContext.swift in Sources */,
+				747FC6F3C88920B38FD28B298D56777A /* BeagleDeepLinkHandler.swift in Sources */,
+				6EDFD139D78294B0A577F26679444E3E /* BeagleDependencies.swift in Sources */,
+				CE675907DEA7C06F16FA44D43D86E394 /* BeagleNavigator.swift in Sources */,
+				6E317B970F2FD7DF4F5CDD61A2D3E20F /* BeaglePrefetchHelper.swift in Sources */,
+				9E8A34DC87EFC20B9B316891D747E410 /* BeagleScreenViewController.swift in Sources */,
+				AA80233759CD387C76B5D2916C185730 /* BeagleScreenViewModel.swift in Sources */,
+				C5633C27181CC2A2F2B67709B1212E3E /* BeagleSetup.swift in Sources */,
+				E126D2935F639E0E2AF9F0C3C45C3FFB /* BeagleUI-dummy.m in Sources */,
+				B3814A813CBFCFC7436944C36B02CAA9 /* Button.swift in Sources */,
+				6BB6702E474B8CB76BA31BF38670D6B1 /* ButtonEntity.swift in Sources */,
+				348C12404B6D7B6E5270FD42D9245DED /* CacheLRU.swift in Sources */,
+				10B3AA093FAA2B8284F398B45434C96D /* CacheManager.swift in Sources */,
+				0FF6B40831BEDD6B49C384C80FFCD288 /* CollectionExtension.swift in Sources */,
+				707B659759FB99F6DE9C0D4EE18DB10A /* ComponentConvertible.swift in Sources */,
+				453CA89805DEE93FE209C4C4ADB788E8 /* ComponentDecoder.swift in Sources */,
+				63D081D017E24959A5D76C27D0FA64D1 /* ComponentEntity.swift in Sources */,
+				67F4B18581DB4CFF0126284723F5E67A /* Container.swift in Sources */,
+				92095697FEB3A98E740F6A5F91FF9356 /* ContainerEntity.swift in Sources */,
+				4864ADB3A4B2852EF81EF396F9FE80D2 /* ContainerIndicatorView.swift in Sources */,
+				CE953779EACA3F20C5383895425FAA47 /* CustomAction.swift in Sources */,
+				B4655CA00C5F2C74FEEC267F7CE2F67A /* CustomActionEntity.swift in Sources */,
+				F84224C91A1F39AAB1A6D15BBF66E8A0 /* CustomActionHandler.swift in Sources */,
+				E3F8D986127043522AA7B4133F9F6D1F /* DefaultPageIndicator.swift in Sources */,
+				525094D845A8A09406C838B2E79B3DCE /* DoublyLinkedList.swift in Sources */,
+				A9220995C42470CDF1109408049A661E /* FatalErrorUtil.swift in Sources */,
+				F5A161C45EFC63FE7B34CADF23B01ECA /* Flex.swift in Sources */,
+				BD938C152468E2678ED61922194F6E24 /* FlexEntity.swift in Sources */,
+				4834C7EDB3E865DBFAE29753DCFE17AF /* FlexViewConfigurator.swift in Sources */,
+				BFF53E5BD72796174AAE1C5D3FFC81B6 /* Form.swift in Sources */,
+				862DACA31ADAA074A827B0E063FA536B /* FormEntity.swift in Sources */,
+				4C8A5BC6C2D2BFCB2F3B2390C6AD71DC /* FormInput.swift in Sources */,
+				B31BD3726F124910E5587E3A57AD1E5E /* FormInputEntity.swift in Sources */,
+				EB62885D9A080FAF2773B26543DD0C2C /* FormSubmit.swift in Sources */,
+				CBE3E6B907971691978FAC4671FEB667 /* FormSubmitEntity.swift in Sources */,
+				069F70FBB0B5E50192F08F8BE70F16C9 /* FormValidation.swift in Sources */,
+				29BB2364D8F36E15FE72A85C8B8F7573 /* FormValidationEntity.swift in Sources */,
+				1D74ABEC9CD86687E463E1BB08FF7FEA /* FunctiontalUtils.swift in Sources */,
+				3CB4D0F9F3692C4D10EB000DA393F036 /* HTTPRequestCanceling.swift in Sources */,
+				FAF447B1DDAC124C85FB22D1A2091558 /* Image.swift in Sources */,
+				89168B88DAFA5A44269E3581692E4C86 /* ImageContentMode.swift in Sources */,
+				B719E424E6932F0891847F404E499DCA /* ImageEntity.swift in Sources */,
+				E17D2E3BA8F6E7D6165A191AB60255F7 /* ImageEntityContentMode.swift in Sources */,
+				BC9B6EC9A3F152DD1E95B6B083BF88B2 /* InputValue.swift in Sources */,
+				B135575AF6384ECAB310767F728FA2B9 /* KeyboardManager.swift in Sources */,
+				B2B26779FB1899D8EB08E2DE8C3449D8 /* LazyComponent.swift in Sources */,
+				E883B0024F68B867017888D452B2973D /* LazyComponentEntity.swift in Sources */,
+				EEDC6C533478FA02B6133B27357DC5EE /* ListItemTableViewCell.swift in Sources */,
+				57623FB097B818E650D2D2A7F7036EDF /* ListView.swift in Sources */,
+				02F9CF879E24027ECF8AB0FA46F0CEFE /* ListViewEntity.swift in Sources */,
+				5E06BC9A42AE6682217B216363482EBE /* ListViewUIComponent.swift in Sources */,
+				E0D4E9A0BA4C4A94D5AEFFD2864745B5 /* LoadingView.swift in Sources */,
+				5A88ECF3D2537B4139F76283EEEF223D /* MemoryCacheService.swift in Sources */,
+				4A4ECDF31F9F698310580216E81ACBF5 /* Navigate.swift in Sources */,
+				199057BC82129875E2FEC786DA33B6E2 /* NavigateEntity.swift in Sources */,
+				491779885EA95B1E7904CA918E8B79A1 /* Network.swift in Sources */,
+				AC2164C4E1373896C2B535C32C4B5192 /* NetworkClient.swift in Sources */,
+				0A05C0A15D806B0819E0CD1928AC7EAE /* NetworkClientDefault.swift in Sources */,
+				D62906320D6F2FA4DC92D85A3AF4C73E /* NetworkImage.swift in Sources */,
+				CA0FB8D2A506B1BC636EF15628726EA3 /* NetworkImageEntity.swift in Sources */,
+				8C25F7E0813D1EEC76E25D498090143C /* NSErrorExtension.swift in Sources */,
+				3F8AE14874B2D6A201A56DB102BBFDBF /* NSObjectExtension.swift in Sources */,
+				F6FBD20ECDEDE68A33C7D5ABF9CD70AF /* Observable.swift in Sources */,
+				883EE26D4727486A11C00DEBD94A027D /* OnStateUpdatable.swift in Sources */,
+				588FE06AA7014A53E33495B0E2FBC6E1 /* PageIndicator.swift in Sources */,
+				8CD242C2178920EF3C81C99149393CD4 /* PageView.swift in Sources */,
+				BEB80F2FC88D7B7FE79CA98C1BF32207 /* PageViewEntity.swift in Sources */,
+				892B6D1A429D35027D56156ADAC7138F /* PageViewUIComponent.swift in Sources */,
+				E508E643D7BF8B15EDAE341E73B61F91 /* Request.swift in Sources */,
+				9D1FD5FB943A976B4E67E19A1FFE2780 /* Result.swift in Sources */,
+				F62C1B14E8A3172F7F4B1A59448984B5 /* SafeAreaManager.swift in Sources */,
+				8837B794BB92719D2C68AD92BE42A818 /* Screen.swift in Sources */,
+				D8EE256E4416B74DB7354013EA6546D8 /* ScreenComponent.swift in Sources */,
+				28893CCCADE5C296C736E67DF3719DE7 /* ScreenComponentEntity.swift in Sources */,
+				C28C36D8324E64897814D47634A7869A /* ScrollView.swift in Sources */,
+				0877A01ADA37CD9A0E4C78B3DA0378B5 /* ScrollViewEntity.swift in Sources */,
+				4590A4D0E72FAC1DAD98807751245C23 /* ServerDrivenComponent.swift in Sources */,
+				7451CCED01E2381FD82FD01125ADF1FA /* ShowNativeDialog.swift in Sources */,
+				36E6E619F77CB55C7497355D66285DD9 /* ShowNativeDialogEntity.swift in Sources */,
+				3D4A0F67E457EE6772E5C7C506D987EC /* Spacer.swift in Sources */,
+				D45B81567E9354A7DA2F14A6207B6596 /* SpacerEntity.swift in Sources */,
+				CA30653B5EC88F6F91A7B9FBBC163B7C /* SubmitFormGestureRecognizer.swift in Sources */,
+				8D1D0D5CA9FE9C6D8F6B554560E5A3DD /* TabBarCollectionViewCell.swift in Sources */,
+				6359B63D4A47DFA1F65F1AC57AC04D89 /* TabView.swift in Sources */,
+				1B2353898312CD439B7571300C237AA1 /* TabViewEntity.swift in Sources */,
+				A96EA8D28C7816202AF60B5111D3C948 /* TabViewUIComponent.swift in Sources */,
+				F83F18B32B4018DAF2C3E8CC7942CD6C /* Text.swift in Sources */,
+				71FCE1294D0EC63E5D1952CB453BBA34 /* TextEntity.swift in Sources */,
+				F02726121A1CF8BA47FBAE7BE8B4C21B /* Theme.swift in Sources */,
+				18DADE5960056BB681B454B1B4CC3423 /* Touchable.swift in Sources */,
+				2EDE2E4C71971804F8986D9F49689B57 /* TouchableEntity.swift in Sources */,
+				05FEDFABEC418C7FFE641CA1218D5936 /* UIModelConvertible.swift in Sources */,
+				30B332CAE824EB5B30BD669FF5D07BE9 /* UIView+Appearance.swift in Sources */,
+				1939F4DACC5C97C6AC048701B74E0810 /* UIView+AutoLayout.swift in Sources */,
+				E26AF230057CA8135EE6D43FAFEB32B4 /* UIView+Id.swift in Sources */,
+				13EE1EAC2DB7E695D97993ACFCDED8AA /* UIView+Loading.swift in Sources */,
+				E27E8FD4C82D26596E6CE70861249EB4 /* UIView+Subviews.swift in Sources */,
+				E7D1E2AC13BE85CF4F6C7F391553544D /* UnitValue.swift in Sources */,
+				D0E9D869814AA149E7410275221F6B51 /* UnitValueEntity.swift in Sources */,
+				54A3D61C63F04E892B23554220198360 /* UnitValueExtension.swift in Sources */,
+				57C9250EEB06EB135B258F748CDF12FB /* UrlRequestBuilder.swift in Sources */,
+				E2707019BDC0106CA242A1483FBA8406 /* Validator.swift in Sources */,
+				55E6B6284D493F2DE39D66F4992F2BF5 /* ValidatorProvider.swift in Sources */,
+				F2F5582382C977CF79413E6828DCEEBD /* Widget.swift in Sources */,
+				2933339BD2258EB5B07DF391B740B400 /* YogaTranslator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD7F98764598D36BA97F4AC3A79A119B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YogaKit;
+			targetProxy = E6580440831E92BBA0AFB94C3CCCF4E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04CD74217655067ECE754E37D8E09109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AB310BB9FCC1F4A70AC73BDC09119C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A9A7D56C88BFD80A420443E1FB92DE /* BeagleUI.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BeagleUI/BeagleUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeagleUI/BeagleUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BeagleUI/BeagleUI.modulemap";
+				PRODUCT_MODULE_NAME = BeagleUI;
+				PRODUCT_NAME = BeagleUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B71DCDCC67B4F96D2D2224D4D1B22D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A9A7D56C88BFD80A420443E1FB92DE /* BeagleUI.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BeagleUI/BeagleUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeagleUI/BeagleUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BeagleUI/BeagleUI.modulemap";
+				PRODUCT_MODULE_NAME = BeagleUI;
+				PRODUCT_NAME = BeagleUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC1AD627ABDED8468D7E406BEEFEDA4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90FDBC4F626EBADAAA0B58AA43F46FA8 /* Build configuration list for PBXProject "BeagleUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1AD627ABDED8468D7E406BEEFEDA4C /* Debug */,
+				04CD74217655067ECE754E37D8E09109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95F65762DBBC02DEF158CC4BE620039 /* Build configuration list for PBXNativeTarget "BeagleUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71DCDCC67B4F96D2D2224D4D1B22D48 /* Debug */,
+				AB310BB9FCC1F4A70AC73BDC09119C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7B2B3331E7185FF6748357CE92C80B /* Project object */;
+}

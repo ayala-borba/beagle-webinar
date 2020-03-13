@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B59AA075EBA60BB1D2FEA8ADAB99716 /* Pods-BeagleWebinarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE28F4C411BDAC777478F9793778B13 /* Pods-BeagleWebinarTests-dummy.m */; };
+		665FFFB6E21CB43E49F41FC82C7257D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		87DC582944EE2C8120F62910F52F5461 /* Pods-BeagleWebinar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F6D8C19006165466A77752ED02EAFA /* Pods-BeagleWebinar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AFEED3B1E7C9231FDC5457537A7F58B /* Pods-BeagleWebinarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB54A87B58F50A6950CB4A07F899808 /* Pods-BeagleWebinarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F24124864436FCD9B75680E43B72382E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F4683F195E754996B52247C399C6C8B3 /* Pods-BeagleWebinar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B79E68E9423F75304604B1870620C0 /* Pods-BeagleWebinar-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049BAF0825DDF7D0029A21B6E257A1D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE162BF93E2CDE5333F4B7420EE6E096 /* YogaKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0329F50521131A4BC4034736FA91D109;
+			remoteInfo = YogaKit;
+		};
+		0F1E70BAB80D8733AEB4A6AE9C7D88C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FF29F0B647406AB3D697B8B4F091FD0;
+			remoteInfo = "Pods-BeagleWebinar";
+		};
+		773C65375445B59FF3054A0F444F8964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D067F64B091358871FA810F0D16A0F38 /* BeagleUI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F029A23CDA5B8568E39DE6F2428CDD2;
+			remoteInfo = BeagleUI;
+		};
+		E0E0ABF81619FBEE1E57A8E15BC6F4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116AAEDF10115C71EB06C79FAA1018A3 /* Yoga.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB658880A3F558549A84D99BCFADCBC;
+			remoteInfo = Yoga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0548C21CFF9B43FBCF7DC82581E86A19 /* Pods-BeagleWebinar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeagleWebinar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FEF03F5F93BCD73E3785ADB0BBD9E07 /* Pods_BeagleWebinar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BeagleWebinar.framework; path = "Pods-BeagleWebinar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		116AAEDF10115C71EB06C79FAA1018A3 /* Yoga */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Yoga; path = Yoga.xcodeproj; sourceTree = "<group>"; };
+		1512E905F23CEF77E594B7F526004256 /* Pods-BeagleWebinarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeagleWebinarTests.release.xcconfig"; sourceTree = "<group>"; };
+		1FB54A87B58F50A6950CB4A07F899808 /* Pods-BeagleWebinarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeagleWebinarTests-umbrella.h"; sourceTree = "<group>"; };
+		20128524B086B56CACC28065B5976BB0 /* Pods-BeagleWebinarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeagleWebinarTests.modulemap"; sourceTree = "<group>"; };
+		2F6EADE8406D8A989306792DEDA8D6FA /* Pods-BeagleWebinar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeagleWebinar.modulemap"; sourceTree = "<group>"; };
+		308A62D6F19A23F4F21D7DE0D733074F /* Pods-BeagleWebinar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeagleWebinar.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48F43B02CB9647B1DEE5072CDDCA170B /* Pods-BeagleWebinar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeagleWebinar.debug.xcconfig"; sourceTree = "<group>"; };
+		7EB17372E01D03A49DA284F074766799 /* Pods-BeagleWebinar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeagleWebinar-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE162BF93E2CDE5333F4B7420EE6E096 /* YogaKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YogaKit; path = YogaKit.xcodeproj; sourceTree = "<group>"; };
+		AE342D46E9D6BB054529B8DF9569BD70 /* Pods-BeagleWebinarTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeagleWebinarTests-Info.plist"; sourceTree = "<group>"; };
+		B0192444EB307B630C32277BCBA6FC3D /* Pods-BeagleWebinarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeagleWebinarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2F6D8C19006165466A77752ED02EAFA /* Pods-BeagleWebinar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeagleWebinar-umbrella.h"; sourceTree = "<group>"; };
+		B5CCB3B060E027DCF4C7EFA1BE89583C /* Pods-BeagleWebinarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeagleWebinarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7AC92A29C8A6B7317325424411D0F05 /* Pods_BeagleWebinarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BeagleWebinarTests.framework; path = "Pods-BeagleWebinarTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3C8DD8333655FF83D5B16EF8A41831 /* Pods-BeagleWebinarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeagleWebinarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D067F64B091358871FA810F0D16A0F38 /* BeagleUI */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BeagleUI; path = BeagleUI.xcodeproj; sourceTree = "<group>"; };
+		E1B79E68E9423F75304604B1870620C0 /* Pods-BeagleWebinar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeagleWebinar-dummy.m"; sourceTree = "<group>"; };
+		EA713426A589DA4F1DB62CEFCFEA2701 /* Pods-BeagleWebinar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeagleWebinar-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB4C6DF9308F46A0E905264836DAD0A7 /* Pods-BeagleWebinar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeagleWebinar-frameworks.sh"; sourceTree = "<group>"; };
+		FDE28F4C411BDAC777478F9793778B13 /* Pods-BeagleWebinarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeagleWebinarTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98D31686F6C41D116C83C72E73EF7BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665FFFB6E21CB43E49F41FC82C7257D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA3A8C070F0B37146E0DA04D5A0EEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24124864436FCD9B75680E43B72382E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FAA2E5626AF8EA7C5CF119576441B4A /* Pods-BeagleWebinarTests */ = {
+			isa = PBXGroup;
+			children = (
+				20128524B086B56CACC28065B5976BB0 /* Pods-BeagleWebinarTests.modulemap */,
+				B5CCB3B060E027DCF4C7EFA1BE89583C /* Pods-BeagleWebinarTests-acknowledgements.markdown */,
+				CA3C8DD8333655FF83D5B16EF8A41831 /* Pods-BeagleWebinarTests-acknowledgements.plist */,
+				FDE28F4C411BDAC777478F9793778B13 /* Pods-BeagleWebinarTests-dummy.m */,
+				AE342D46E9D6BB054529B8DF9569BD70 /* Pods-BeagleWebinarTests-Info.plist */,
+				1FB54A87B58F50A6950CB4A07F899808 /* Pods-BeagleWebinarTests-umbrella.h */,
+				B0192444EB307B630C32277BCBA6FC3D /* Pods-BeagleWebinarTests.debug.xcconfig */,
+				1512E905F23CEF77E594B7F526004256 /* Pods-BeagleWebinarTests.release.xcconfig */,
+			);
+			name = "Pods-BeagleWebinarTests";
+			path = "Target Support Files/Pods-BeagleWebinarTests";
+			sourceTree = "<group>";
+		};
+		94888BF34E779C86AF2AEB89706C50D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF03F5F93BCD73E3785ADB0BBD9E07 /* Pods_BeagleWebinar.framework */,
+				B7AC92A29C8A6B7317325424411D0F05 /* Pods_BeagleWebinarTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A643515EAAF506EFACC7AA72FDA73D9A /* Pods-BeagleWebinar */ = {
+			isa = PBXGroup;
+			children = (
+				2F6EADE8406D8A989306792DEDA8D6FA /* Pods-BeagleWebinar.modulemap */,
+				0548C21CFF9B43FBCF7DC82581E86A19 /* Pods-BeagleWebinar-acknowledgements.markdown */,
+				EA713426A589DA4F1DB62CEFCFEA2701 /* Pods-BeagleWebinar-acknowledgements.plist */,
+				E1B79E68E9423F75304604B1870620C0 /* Pods-BeagleWebinar-dummy.m */,
+				EB4C6DF9308F46A0E905264836DAD0A7 /* Pods-BeagleWebinar-frameworks.sh */,
+				7EB17372E01D03A49DA284F074766799 /* Pods-BeagleWebinar-Info.plist */,
+				B2F6D8C19006165466A77752ED02EAFA /* Pods-BeagleWebinar-umbrella.h */,
+				48F43B02CB9647B1DEE5072CDDCA170B /* Pods-BeagleWebinar.debug.xcconfig */,
+				308A62D6F19A23F4F21D7DE0D733074F /* Pods-BeagleWebinar.release.xcconfig */,
+			);
+			name = "Pods-BeagleWebinar";
+			path = "Target Support Files/Pods-BeagleWebinar";
+			sourceTree = "<group>";
+		};
+		BF794CBBF914A0C6A8F373BE11141AEE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A643515EAAF506EFACC7AA72FDA73D9A /* Pods-BeagleWebinar */,
+				2FAA2E5626AF8EA7C5CF119576441B4A /* Pods-BeagleWebinarTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FC34C8FAB2536DE83C5607544B90ABD3 /* Pods */,
+				94888BF34E779C86AF2AEB89706C50D0 /* Products */,
+				BF794CBBF914A0C6A8F373BE11141AEE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC34C8FAB2536DE83C5607544B90ABD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D067F64B091358871FA810F0D16A0F38 /* BeagleUI */,
+				116AAEDF10115C71EB06C79FAA1018A3 /* Yoga */,
+				AE162BF93E2CDE5333F4B7420EE6E096 /* YogaKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D95D6AFA3B64FAC17707CBC844C78BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFEED3B1E7C9231FDC5457537A7F58B /* Pods-BeagleWebinarTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7C6B23776C490E2C8DD73A378CEB41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DC582944EE2C8120F62910F52F5461 /* Pods-BeagleWebinar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FF29F0B647406AB3D697B8B4F091FD0 /* Pods-BeagleWebinar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5851BAB8BC924E36B05AFAB69D280E /* Build configuration list for PBXNativeTarget "Pods-BeagleWebinar" */;
+			buildPhases = (
+				AF7C6B23776C490E2C8DD73A378CEB41 /* Headers */,
+				874C5A254D7A3E77D7ACF188F2D9A91A /* Sources */,
+				98D31686F6C41D116C83C72E73EF7BF8 /* Frameworks */,
+				B577E8E01848E6A9885CF27CCBCE6192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ECDA3DB61A5CE555C71E13BF742C368 /* PBXTargetDependency */,
+				BF51DA7E623F6ACF94428D556231D7F4 /* PBXTargetDependency */,
+				3FA6AD610E85590C35A72F2D01BDFF89 /* PBXTargetDependency */,
+			);
+			name = "Pods-BeagleWebinar";
+			productName = "Pods-BeagleWebinar";
+			productReference = 0FEF03F5F93BCD73E3785ADB0BBD9E07 /* Pods_BeagleWebinar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E08B835E06DFC3336BEF0838D56300D6 /* Pods-BeagleWebinarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC99D1A7C5117504A31165D8F549A52 /* Build configuration list for PBXNativeTarget "Pods-BeagleWebinarTests" */;
+			buildPhases = (
+				2D95D6AFA3B64FAC17707CBC844C78BC /* Headers */,
+				7A1C9B4DA1BCDE9C1D01CDDB0D1324C9 /* Sources */,
+				BCA3A8C070F0B37146E0DA04D5A0EEF0 /* Frameworks */,
+				C627FFDBE93D52A3EBF5516E06A5F77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E75276DF87A818427C7DE117D2B85710 /* PBXTargetDependency */,
+			);
+			name = "Pods-BeagleWebinarTests";
+			productName = "Pods-BeagleWebinarTests";
+			productReference = B7AC92A29C8A6B7317325424411D0F05 /* Pods_BeagleWebinarTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 94888BF34E779C86AF2AEB89706C50D0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = D067F64B091358871FA810F0D16A0F38 /* BeagleUI */;
+				},
+				{
+					ProjectRef = 116AAEDF10115C71EB06C79FAA1018A3 /* Yoga */;
+				},
+				{
+					ProjectRef = AE162BF93E2CDE5333F4B7420EE6E096 /* YogaKit */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7FF29F0B647406AB3D697B8B4F091FD0 /* Pods-BeagleWebinar */,
+				E08B835E06DFC3336BEF0838D56300D6 /* Pods-BeagleWebinarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B577E8E01848E6A9885CF27CCBCE6192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C627FFDBE93D52A3EBF5516E06A5F77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1C9B4DA1BCDE9C1D01CDDB0D1324C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B59AA075EBA60BB1D2FEA8ADAB99716 /* Pods-BeagleWebinarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874C5A254D7A3E77D7ACF188F2D9A91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4683F195E754996B52247C399C6C8B3 /* Pods-BeagleWebinar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA6AD610E85590C35A72F2D01BDFF89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YogaKit;
+			targetProxy = 049BAF0825DDF7D0029A21B6E257A1D6 /* PBXContainerItemProxy */;
+		};
+		7ECDA3DB61A5CE555C71E13BF742C368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BeagleUI;
+			targetProxy = 773C65375445B59FF3054A0F444F8964 /* PBXContainerItemProxy */;
+		};
+		BF51DA7E623F6ACF94428D556231D7F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Yoga;
+			targetProxy = E0E0ABF81619FBEE1E57A8E15BC6F4D3 /* PBXContainerItemProxy */;
+		};
+		E75276DF87A818427C7DE117D2B85710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BeagleWebinar";
+			target = 7FF29F0B647406AB3D697B8B4F091FD0 /* Pods-BeagleWebinar */;
+			targetProxy = 0F1E70BAB80D8733AEB4A6AE9C7D88C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F5CE9157A6944C572608740FA41A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34E9B537DD867B19FECA8213C834D6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308A62D6F19A23F4F21D7DE0D733074F /* Pods-BeagleWebinar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeagleWebinar/Pods-BeagleWebinar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeagleWebinar/Pods-BeagleWebinar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35E69C2B046E232E2F8588A854606972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1512E905F23CEF77E594B7F526004256 /* Pods-BeagleWebinarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeagleWebinarTests/Pods-BeagleWebinarTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeagleWebinarTests/Pods-BeagleWebinarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C7FD8E27DE349B4099706A418A3C9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0192444EB307B630C32277BCBA6FC3D /* Pods-BeagleWebinarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeagleWebinarTests/Pods-BeagleWebinarTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeagleWebinarTests/Pods-BeagleWebinarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B10244254BC91FCA3BDF4E402C8DE783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F43B02CB9647B1DEE5072CDDCA170B /* Pods-BeagleWebinar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeagleWebinar/Pods-BeagleWebinar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeagleWebinar/Pods-BeagleWebinar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B102853BB3392A16E68667C38114BC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5CE9157A6944C572608740FA41A6A5 /* Debug */,
+				B102853BB3392A16E68667C38114BC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5851BAB8BC924E36B05AFAB69D280E /* Build configuration list for PBXNativeTarget "Pods-BeagleWebinar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10244254BC91FCA3BDF4E402C8DE783 /* Debug */,
+				34E9B537DD867B19FECA8213C834D6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC99D1A7C5117504A31165D8F549A52 /* Build configuration list for PBXNativeTarget "Pods-BeagleWebinarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7FD8E27DE349B4099706A418A3C9E0 /* Debug */,
+				35E69C2B046E232E2F8588A854606972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
